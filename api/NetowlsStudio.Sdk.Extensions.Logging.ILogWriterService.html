@@ -1,0 +1,1812 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ILogWriterService
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ILogWriterService
+   ">
+    <meta name="generator" content="docfx 2.54.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService">
+  
+  
+  <h1 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService" class="text-break">Interface ILogWriterService
+  </h1>
+  <div class="markdown level0 summary"><p>定义了记录运行时日志信息的接口。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.html">NetowlsStudio.Sdk.Extensions.Logging</a></h6>
+  <h6><strong>Assembly</strong>: NosFramework.Extensions.Logging.Abstractions.dll</h6>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ILogWriterService</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_Write_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.Write*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_Write_System_Type_System_String_System_Exception_NetowlsStudio_Sdk_Extensions_Logging_LogLevel_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.Write(System.Type,System.String,System.Exception,NetowlsStudio.Sdk.Extensions.Logging.LogLevel)">Write(Type, String, Exception, LogLevel)</h4>
+  <div class="markdown level1 summary"><p>记录日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Write(Type target, string message, Exception error = null, LogLevel level = LogLevel.Information)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></td>
+        <td><span class="parametername">level</span></td>
+        <td><p><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a> 中的一个或几个值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_Write_System_Type_System_String_System_Exception_NetowlsStudio_Sdk_Extensions_Logging_LogLevel__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_Write_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.Write*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_Write__1_System_String_System_Exception_NetowlsStudio_Sdk_Extensions_Logging_LogLevel_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.Write``1(System.String,System.Exception,NetowlsStudio.Sdk.Extensions.Logging.LogLevel)">Write&lt;TTarget&gt;(String, Exception, LogLevel)</h4>
+  <div class="markdown level1 summary"><p>记录日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Write&lt;TTarget&gt;(string message, Exception error = null, LogLevel level = LogLevel.Information)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></td>
+        <td><span class="parametername">level</span></td>
+        <td><p><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a> 中的一个或几个值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_Write__1_System_String_System_Exception_NetowlsStudio_Sdk_Extensions_Logging_LogLevel__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteAsync_System_Type_System_String_System_Exception_NetowlsStudio_Sdk_Extensions_Logging_LogLevel_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteAsync(System.Type,System.String,System.Exception,NetowlsStudio.Sdk.Extensions.Logging.LogLevel)">WriteAsync(Type, String, Exception, LogLevel)</h4>
+  <div class="markdown level1 summary"><p>记录日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteAsync(Type target, string message, Exception error = null, LogLevel level = LogLevel.Information)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></td>
+        <td><span class="parametername">level</span></td>
+        <td><p><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a> 中的一个或几个值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteAsync_System_Type_System_String_System_Exception_NetowlsStudio_Sdk_Extensions_Logging_LogLevel__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteAsync__1_System_String_System_Exception_NetowlsStudio_Sdk_Extensions_Logging_LogLevel_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteAsync``1(System.String,System.Exception,NetowlsStudio.Sdk.Extensions.Logging.LogLevel)">WriteAsync&lt;TTarget&gt;(String, Exception, LogLevel)</h4>
+  <div class="markdown level1 summary"><p>记录日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteAsync&lt;TTarget&gt;(string message, Exception error = null, LogLevel level = LogLevel.Information)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></td>
+        <td><span class="parametername">level</span></td>
+        <td><p><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a> 中的一个或几个值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteAsync__1_System_String_System_Exception_NetowlsStudio_Sdk_Extensions_Logging_LogLevel__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteDebug_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteDebug*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteDebug_System_Type_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteDebug(System.Type,System.String,System.Exception)">WriteDebug(Type, String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录调试级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteDebug(Type target, string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteDebug_System_Type_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteDebug_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteDebug*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteDebug__1_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteDebug``1(System.String,System.Exception)">WriteDebug&lt;TTarget&gt;(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录调试级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteDebug&lt;TTarget&gt;(string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteDebug__1_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteDebugAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteDebugAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteDebugAsync_System_Type_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteDebugAsync(System.Type,System.String,System.Exception)">WriteDebugAsync(Type, String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录调试级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteDebugAsync(Type target, string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteDebugAsync_System_Type_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteDebugAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteDebugAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteDebugAsync__1_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteDebugAsync``1(System.String,System.Exception)">WriteDebugAsync&lt;TTarget&gt;(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录调试级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteDebugAsync&lt;TTarget&gt;(string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteDebugAsync__1_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteError_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteError*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteError_System_Type_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteError(System.Type,System.String,System.Exception)">WriteError(Type, String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录错误级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteError(Type target, string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteError_System_Type_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteError_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteError*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteError__1_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteError``1(System.String,System.Exception)">WriteError&lt;TTarget&gt;(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录错误级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteError&lt;TTarget&gt;(string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteError__1_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteErrorAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteErrorAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteErrorAsync_System_Type_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteErrorAsync(System.Type,System.String,System.Exception)">WriteErrorAsync(Type, String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录错误级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteErrorAsync(Type target, string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteErrorAsync_System_Type_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteErrorAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteErrorAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteErrorAsync__1_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteErrorAsync``1(System.String,System.Exception)">WriteErrorAsync&lt;TTarget&gt;(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录错误级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteErrorAsync&lt;TTarget&gt;(string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteErrorAsync__1_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteFatal_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteFatal*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteFatal_System_Type_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteFatal(System.Type,System.String,System.Exception)">WriteFatal(Type, String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录异常级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteFatal(Type target, string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteFatal_System_Type_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteFatal_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteFatal*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteFatal__1_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteFatal``1(System.String,System.Exception)">WriteFatal&lt;TTarget&gt;(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录异常级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteFatal&lt;TTarget&gt;(string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteFatal__1_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteFatalAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteFatalAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteFatalAsync_System_Type_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteFatalAsync(System.Type,System.String,System.Exception)">WriteFatalAsync(Type, String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录异常级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteFatalAsync(Type target, string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteFatalAsync_System_Type_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteFatalAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteFatalAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteFatalAsync__1_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteFatalAsync``1(System.String,System.Exception)">WriteFatalAsync&lt;TTarget&gt;(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录异常级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteFatalAsync&lt;TTarget&gt;(string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteFatalAsync__1_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteInformation_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteInformation*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteInformation_System_Type_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteInformation(System.Type,System.String,System.Exception)">WriteInformation(Type, String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录信息级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteInformation(Type target, string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteInformation_System_Type_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteInformation_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteInformation*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteInformation__1_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteInformation``1(System.String,System.Exception)">WriteInformation&lt;TTarget&gt;(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录信息级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteInformation&lt;TTarget&gt;(string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteInformation__1_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteInformationAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteInformationAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteInformationAsync_System_Type_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteInformationAsync(System.Type,System.String,System.Exception)">WriteInformationAsync(Type, String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录信息级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteInformationAsync(Type target, string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteInformationAsync_System_Type_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteInformationAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteInformationAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteInformationAsync__1_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteInformationAsync``1(System.String,System.Exception)">WriteInformationAsync&lt;TTarget&gt;(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录信息级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteInformationAsync&lt;TTarget&gt;(string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteInformationAsync__1_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteTrace_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteTrace*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteTrace_System_Type_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteTrace(System.Type,System.String,System.Exception)">WriteTrace(Type, String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录追踪级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteTrace(Type target, string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteTrace_System_Type_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteTrace_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteTrace*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteTrace__1_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteTrace``1(System.String,System.Exception)">WriteTrace&lt;TTarget&gt;(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录追踪级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteTrace&lt;TTarget&gt;(string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteTrace__1_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteTraceAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteTraceAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteTraceAsync_System_Type_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteTraceAsync(System.Type,System.String,System.Exception)">WriteTraceAsync(Type, String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录追踪级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteTraceAsync(Type target, string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteTraceAsync_System_Type_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteTraceAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteTraceAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteTraceAsync__1_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteTraceAsync``1(System.String,System.Exception)">WriteTraceAsync&lt;TTarget&gt;(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录追踪级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteTraceAsync&lt;TTarget&gt;(string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteTraceAsync__1_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteWarning_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteWarning*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteWarning_System_Type_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteWarning(System.Type,System.String,System.Exception)">WriteWarning(Type, String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录警告级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteWarning(Type target, string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteWarning_System_Type_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteWarning_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteWarning*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteWarning__1_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteWarning``1(System.String,System.Exception)">WriteWarning&lt;TTarget&gt;(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录警告级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteWarning&lt;TTarget&gt;(string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteWarning__1_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteWarningAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteWarningAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteWarningAsync_System_Type_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteWarningAsync(System.Type,System.String,System.Exception)">WriteWarningAsync(Type, String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录警告级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteWarningAsync(Type target, string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>记录日志信息的类型。</p>
+<p> <span class="xref">System.Type</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteWarningAsync_System_Type_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteWarningAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteWarningAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteWarningAsync__1_System_String_System_Exception_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.WriteWarningAsync``1(System.String,System.Exception)">WriteWarningAsync&lt;TTarget&gt;(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>记录警告级日志信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task WriteWarningAsync&lt;TTarget&gt;(string message, Exception error = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>日志描述信息。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>派生自 <span class="xref">System.Exception</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>记录日志信息的类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_ILogWriterService_WriteWarningAsync__1_System_String_System_Exception__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogLevel.html">LogLevel</a></div>
+      <div><span class="xref">System.Type</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

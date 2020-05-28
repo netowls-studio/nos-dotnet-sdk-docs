@@ -1,0 +1,563 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class XmlSerializationServiceProvider
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class XmlSerializationServiceProvider
+   ">
+    <meta name="generator" content="docfx 2.54.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider">
+  
+  
+  <h1 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider" class="text-break">Class XmlSerializationServiceProvider
+  </h1>
+  <div class="markdown level0 summary"><p>提供了 XML 序列化服务相关的方法。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html">SerializationServiceProvider</a></div>
+    <div class="level2"><span class="xref">XmlSerializationServiceProvider</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.Xml.IXmlSerializationExtendedService.html">IXmlSerializationExtendedService</a></div>
+    <div><a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.ISerializationService.html">ISerializationService</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html#NetowlsStudio_Sdk_Runtime_Serialization_SerializationServiceProvider_Deserialize__1_System_Byte___">SerializationServiceProvider.Deserialize&lt;T&gt;(Byte[])</a>
+    </div>
+    <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html#NetowlsStudio_Sdk_Runtime_Serialization_SerializationServiceProvider_Deserialize__1_System_IO_Stream_">SerializationServiceProvider.Deserialize&lt;T&gt;(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html#NetowlsStudio_Sdk_Runtime_Serialization_SerializationServiceProvider_DeserializeAsync__1_System_Byte___">SerializationServiceProvider.DeserializeAsync&lt;T&gt;(Byte[])</a>
+    </div>
+    <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html#NetowlsStudio_Sdk_Runtime_Serialization_SerializationServiceProvider_DeserializeAsync__1_System_IO_Stream_">SerializationServiceProvider.DeserializeAsync&lt;T&gt;(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html#NetowlsStudio_Sdk_Runtime_Serialization_SerializationServiceProvider_Serialize__1_System_IO_Stream___0_">SerializationServiceProvider.Serialize&lt;T&gt;(Stream, T)</a>
+    </div>
+    <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html#NetowlsStudio_Sdk_Runtime_Serialization_SerializationServiceProvider_Serialize__1___0_">SerializationServiceProvider.Serialize&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html#NetowlsStudio_Sdk_Runtime_Serialization_SerializationServiceProvider_SerializeAsync__1_System_IO_Stream___0_">SerializationServiceProvider.SerializeAsync&lt;T&gt;(Stream, T)</a>
+    </div>
+    <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html#NetowlsStudio_Sdk_Runtime_Serialization_SerializationServiceProvider_SerializeAsync__1___0_">SerializationServiceProvider.SerializeAsync&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html#NetowlsStudio_Sdk_Runtime_Serialization_SerializationServiceProvider_StreamNotSupport__1_System_IO_Stream_">SerializationServiceProvider.StreamNotSupport&lt;T&gt;(Stream)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.Xml.html">NetowlsStudio.Sdk.Runtime.Serialization.Xml</a></h6>
+  <h6><strong>Assembly</strong>: NosFramework.Extensions.Serialization.DotNetProviders.dll</h6>
+  <h5 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class XmlSerializationServiceProvider : SerializationServiceProvider, IXmlSerializationExtendedService, ISerializationService</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider__ctor_" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.#ctor*"></a>
+  <h4 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider__ctor" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.#ctor">XmlSerializationServiceProvider()</h4>
+  <div class="markdown level1 summary"><p>用于初始化一个 <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.html">XmlSerializationServiceProvider</a> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XmlSerializationServiceProvider()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_Namespaces_" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.Namespaces*"></a>
+  <h4 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_Namespaces" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.Namespaces">Namespaces</h4>
+  <div class="markdown level1 summary"><p>XML 序列化命名空间管理程序。</p>
+<p> <span class="xref">System.Xml.Serialization.XmlSerializerNamespaces</span> 类型的对象实例。 </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected XmlSerializerNamespaces Namespaces { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.Serialization.XmlSerializerNamespaces</span></td>
+        <td><p>设置或获取 <span class="xref">System.Xml.Serialization.XmlSerializerNamespaces</span> 类型的对象实例，用于表示 XML 序列化命名空间管理程序。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_Namespaces_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Xml.Serialization.XmlSerializerNamespaces</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_Serializer_" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.Serializer*"></a>
+  <h4 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_Serializer" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.Serializer">Serializer</h4>
+  <div class="markdown level1 summary"><p>XML 序列化程序。</p>
+<p> <span class="xref">System.Xml.Serialization.XmlSerializer</span> 类型的对象实例。 </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected XmlSerializer Serializer { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.Serialization.XmlSerializer</span></td>
+        <td><p>设置或获取 <span class="xref">System.Xml.Serialization.XmlSerializer</span> 类型的对象实例，用于表示 XML 序列化程序。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_Serializer_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Xml.Serialization.XmlSerializer</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_UseNamespaces_" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.UseNamespaces*"></a>
+  <h4 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_UseNamespaces" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.UseNamespaces">UseNamespaces</h4>
+  <div class="markdown level1 summary"><p>是否使用 XML 命名空间。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool UseNamespaces { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>设置或获取一个值，用于表示是否使用 XML 命名空间。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_InitializeNamespaceManager_" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.InitializeNamespaceManager*"></a>
+  <h4 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_InitializeNamespaceManager" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.InitializeNamespaceManager">InitializeNamespaceManager()</h4>
+  <div class="markdown level1 summary"><p>初始化 XML 命名空间管理程序。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IXmlSerializationExtendedService InitializeNamespaceManager()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.Xml.IXmlSerializationExtendedService.html">IXmlSerializationExtendedService</a></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.Xml.IXmlSerializationExtendedService.html">IXmlSerializationExtendedService</a> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_InternalDeserialize_" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.InternalDeserialize*"></a>
+  <h4 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_InternalDeserialize__1_System_IO_Stream_" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.InternalDeserialize``1(System.IO.Stream)">InternalDeserialize&lt;T&gt;(Stream)</h4>
+  <div class="markdown level1 summary"><p>从 <code data-dev-comment-type="paramref" class="paramref">deserializationStream</code> 中反序列化得到 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override T InternalDeserialize&lt;T&gt;(Stream deserializationStream)
+
+    where T : class, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">deserializationStream</span></td>
+        <td><p>反序列化流。</p>
+<p> 派生自 <span class="xref">System.IO.Stream</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>引用类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html#NetowlsStudio_Sdk_Runtime_Serialization_SerializationServiceProvider_InternalDeserialize__1_System_IO_Stream_">SerializationServiceProvider.InternalDeserialize&lt;T&gt;(Stream)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceException.html">SerializationServiceException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_InternalSerialize_" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.InternalSerialize*"></a>
+  <h4 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_InternalSerialize__1_System_IO_Stream___0_" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.InternalSerialize``1(System.IO.Stream,``0)">InternalSerialize&lt;T&gt;(Stream, T)</h4>
+  <div class="markdown level1 summary"><p>序列化 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例到 <code data-dev-comment-type="paramref" class="paramref">serializationStream</code> 中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void InternalSerialize&lt;T&gt;(Stream serializationStream, T data)
+
+    where T : class, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">serializationStream</span></td>
+        <td><p>序列化流。</p>
+<p> 派生自 <span class="xref">System.IO.Stream</span> 类型的对象实例。 </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>需要序列化的 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>引用类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.InternalSerialize&lt;T&gt;(System.IO.Stream, T)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceException.html">SerializationServiceException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_InternalSerialize__1_System_IO_Stream___0__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.IO.Stream</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_WithNamespace_" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.WithNamespace*"></a>
+  <h4 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_WithNamespace_System_String_System_String_" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.WithNamespace(System.String,System.String)">WithNamespace(String, String)</h4>
+  <div class="markdown level1 summary"><p>使用指定的 XML 命名空间。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IXmlSerializationExtendedService WithNamespace(string prefix, string namespaceUri)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">prefix</span></td>
+        <td><p>命名空间前缀。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">namespaceUri</span></td>
+        <td><p>命名空间 URL 地址。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.Xml.IXmlSerializationExtendedService.html">IXmlSerializationExtendedService</a></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.Xml.IXmlSerializationExtendedService.html">IXmlSerializationExtendedService</a> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_WithoutNamespace_" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.WithoutNamespace*"></a>
+  <h4 id="NetowlsStudio_Sdk_Runtime_Serialization_Xml_XmlSerializationServiceProvider_WithoutNamespace" data-uid="NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.WithoutNamespace">WithoutNamespace()</h4>
+  <div class="markdown level1 summary"><p>不使用 XML 命名空间。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IXmlSerializationExtendedService WithoutNamespace()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.Xml.IXmlSerializationExtendedService.html">IXmlSerializationExtendedService</a></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.Xml.IXmlSerializationExtendedService.html">IXmlSerializationExtendedService</a> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.Xml.IXmlSerializationExtendedService.html">IXmlSerializationExtendedService</a>
+  </div>
+  <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.ISerializationService.html">ISerializationService</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.Xml.IXmlSerializationExtendedService.html">IXmlSerializationExtendedService</a></div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html">SerializationServiceProvider</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
