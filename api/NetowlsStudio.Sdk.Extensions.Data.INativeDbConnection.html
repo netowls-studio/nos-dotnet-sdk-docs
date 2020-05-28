@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface INativeDbConnection
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface INativeDbConnection
+   ">
+    <meta name="generator" content="docfx 2.54.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection">
+  
+  
+  <h1 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection" class="text-break">Interface INativeDbConnection
+  </h1>
+  <div class="markdown level0 summary"><p>定义了管理 ADO.NET 数据库连接的接口。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.html">NetowlsStudio.Sdk.Extensions.Data</a></h6>
+  <h6><strong>Assembly</strong>: NosFramework.Extensions.Ado.Native.Abstractions.dll</h6>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface INativeDbConnection</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_Connection_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.Connection*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_Connection" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.Connection">Connection</h4>
+  <div class="markdown level1 summary"><p>ADO.NET 数据库连接串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDbConnection Connection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><p>获取实现了 <span class="xref">System.Data.IDbConnection</span> 类型接口的对象实例，用于表示 ADO.NET 数据库连接串。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_Connection_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbConnection</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_IsOpened_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.IsOpened*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_IsOpened" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.IsOpened">IsOpened</h4>
+  <div class="markdown level1 summary"><p>数据库连接是否已经打开。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsOpened { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>获取一个值，用于表示数据库连接是否已经打开。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_BeginTransaction_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.BeginTransaction*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_BeginTransaction" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.BeginTransaction">BeginTransaction()</h4>
+  <div class="markdown level1 summary"><p>启用一个数据库事务。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDbTransaction BeginTransaction()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbTransaction</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_BeginTransaction_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbTransaction</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_BeginTransaction_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.BeginTransaction*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_BeginTransaction_System_Data_IsolationLevel_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.BeginTransaction(System.Data.IsolationLevel)">BeginTransaction(IsolationLevel)</h4>
+  <div class="markdown level1 summary"><p>启用一个数据库事务。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDbTransaction BeginTransaction(IsolationLevel isolationLevel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IsolationLevel</span></td>
+        <td><span class="parametername">isolationLevel</span></td>
+        <td><p><span class="xref">System.Data.IsolationLevel</span> 中的一个值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbTransaction</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_BeginTransaction_System_Data_IsolationLevel__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IsolationLevel</span></div>
+      <div><span class="xref">System.Data.IDbTransaction</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_BeginTransactionAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.BeginTransactionAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_BeginTransactionAsync" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.BeginTransactionAsync">BeginTransactionAsync()</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：启用一个数据库事务。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;IDbTransaction&gt;&gt; BeginTransactionAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">System.Data.IDbTransaction</span>&gt;&gt;</td>
+        <td><p>实现了 <span class="xref">System.Data.IDbTransaction</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_BeginTransactionAsync_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IsolationLevel</span></div>
+      <div><span class="xref">System.Data.IDbTransaction</span></div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_BeginTransactionAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.BeginTransactionAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_BeginTransactionAsync_System_Data_IsolationLevel_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.BeginTransactionAsync(System.Data.IsolationLevel)">BeginTransactionAsync(IsolationLevel)</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：启用一个数据库事务。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;IDbTransaction&gt;&gt; BeginTransactionAsync(IsolationLevel isolationLevel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IsolationLevel</span></td>
+        <td><span class="parametername">isolationLevel</span></td>
+        <td><p><span class="xref">System.Data.IsolationLevel</span> 中的一个值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">System.Data.IDbTransaction</span>&gt;&gt;</td>
+        <td><p>实现了 <span class="xref">System.Data.IDbTransaction</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_BeginTransactionAsync_System_Data_IsolationLevel__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IsolationLevel</span></div>
+      <div><span class="xref">System.Data.IDbTransaction</span></div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_Close_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.Close*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_Close" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.Close">Close()</h4>
+  <div class="markdown level1 summary"><p>关闭数据库连接。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Close()</code></pre>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_CloseAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.CloseAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_CloseAsync" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.CloseAsync">CloseAsync()</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：关闭数据库连接。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&gt; CloseAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult.html">AsyncTaskResult</a>&gt;</td>
+        <td><p>派生自 <a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult.html">AsyncTaskResult</a> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_CloseAsync_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult.html">AsyncTaskResult</a></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_Open_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.Open*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_Open" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.Open">Open()</h4>
+  <div class="markdown level1 summary"><p>打开数据库连接。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Open()</code></pre>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_OpenAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.OpenAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_OpenAsync" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.OpenAsync">OpenAsync()</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：打开数据库连接。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&gt; OpenAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult.html">AsyncTaskResult</a>&gt;</td>
+        <td><p>派生自 <a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult.html">AsyncTaskResult</a> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbConnection_OpenAsync_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult.html">AsyncTaskResult</a></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

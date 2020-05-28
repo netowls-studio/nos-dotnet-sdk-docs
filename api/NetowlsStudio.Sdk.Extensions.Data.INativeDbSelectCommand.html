@@ -1,0 +1,1174 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface INativeDbSelectCommand
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface INativeDbSelectCommand
+   ">
+    <meta name="generator" content="docfx 2.54.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand">
+  
+  
+  <h1 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand" class="text-break">Interface INativeDbSelectCommand
+  </h1>
+  <div class="markdown level0 summary"><p>定义了 ADO.NET 数据库查询的接口。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.html">NetowlsStudio.Sdk.Extensions.Data</a></h6>
+  <h6><strong>Assembly</strong>: NosFramework.Extensions.Ado.Native.Abstractions.dll</h6>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface INativeDbSelectCommand</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReader_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReader*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReader_System_Data_IDbCommand_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReader(System.Data.IDbCommand)">ExecuteDataReader(IDbCommand)</h4>
+  <div class="markdown level1 summary"><p>执行数据库查询，并返回实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader ExecuteDataReader(IDbCommand selectCmd)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><span class="parametername">selectCmd</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDataReader</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReader_System_Data_IDbCommand__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.IDataReader</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReader_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReader*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReader_System_Data_IDbCommand_System_Data_CommandBehavior_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReader(System.Data.IDbCommand,System.Data.CommandBehavior)">ExecuteDataReader(IDbCommand, CommandBehavior)</h4>
+  <div class="markdown level1 summary"><p>执行数据库查询，并返回实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader ExecuteDataReader(IDbCommand selectCmd, CommandBehavior behavior)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><span class="parametername">selectCmd</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandBehavior</span></td>
+        <td><span class="parametername">behavior</span></td>
+        <td><p><span class="xref">System.Data.CommandBehavior</span> 中的一个值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDataReader</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReader_System_Data_IDbCommand_System_Data_CommandBehavior__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.IDataReader</span></div>
+      <div><span class="xref">System.Data.CommandBehavior</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReader_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReader*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReader_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandBehavior_System_Data_CommandType_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReader(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandBehavior,System.Data.CommandType,System.Int32)">ExecuteDataReader(String, IEnumerable&lt;IDbDataParameter&gt;, CommandBehavior, CommandType, Int32)</h4>
+  <div class="markdown level1 summary"><p>执行数据库查询，并返回实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader ExecuteDataReader(string selectCmdText, IEnumerable&lt;IDbDataParameter&gt; parameters = null, CommandBehavior behavior = CommandBehavior.Default, CommandType cmdType = CommandType.Text, int selectCmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectCmdText</span></td>
+        <td><p>数据库查询命令文本。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.IDbDataParameter</span>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例集合。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandBehavior</span></td>
+        <td><span class="parametername">behavior</span></td>
+        <td><p><span class="xref">System.Data.CommandBehavior</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">selectCmdTimeout</span></td>
+        <td><p>查询命令超时时间。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDataReader</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReader_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandBehavior_System_Data_CommandType_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.CommandBehavior</span></div>
+      <div><span class="xref">System.Data.IDataReader</span></div>
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReader_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReader*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReader_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReader(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32)">ExecuteDataReader(String, IEnumerable&lt;IDbDataParameter&gt;, CommandType, Int32)</h4>
+  <div class="markdown level1 summary"><p>执行数据库查询，并返回实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader ExecuteDataReader(string selectCmdText, IEnumerable&lt;IDbDataParameter&gt; parameters = null, CommandType cmdType = CommandType.Text, int selectCmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectCmdText</span></td>
+        <td><p>数据库查询命令文本。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.IDbDataParameter</span>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例集合。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">selectCmdTimeout</span></td>
+        <td><p>查询命令超时时间。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDataReader</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReader_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.IDataReader</span></div>
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReaderAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReaderAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReaderAsync_System_Data_IDbCommand_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReaderAsync(System.Data.IDbCommand)">ExecuteDataReaderAsync(IDbCommand)</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：执行数据库查询，并返回实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;IDataReader&gt;&gt; ExecuteDataReaderAsync(IDbCommand selectCmd)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><span class="parametername">selectCmd</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">System.Data.IDataReader</span>&gt;&gt;</td>
+        <td><p>实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReaderAsync_System_Data_IDbCommand__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.IDataReader</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReaderAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReaderAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReaderAsync_System_Data_IDbCommand_System_Data_CommandBehavior_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReaderAsync(System.Data.IDbCommand,System.Data.CommandBehavior)">ExecuteDataReaderAsync(IDbCommand, CommandBehavior)</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：执行数据库查询，并返回实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;IDataReader&gt;&gt; ExecuteDataReaderAsync(IDbCommand selectCmd, CommandBehavior behavior)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><span class="parametername">selectCmd</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandBehavior</span></td>
+        <td><span class="parametername">behavior</span></td>
+        <td><p><span class="xref">System.Data.CommandBehavior</span> 中的一个值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">System.Data.IDataReader</span>&gt;&gt;</td>
+        <td><p>实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReaderAsync_System_Data_IDbCommand_System_Data_CommandBehavior__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.IDataReader</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+      <div><span class="xref">System.Data.CommandBehavior</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReaderAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReaderAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReaderAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandBehavior_System_Data_CommandType_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReaderAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandBehavior,System.Data.CommandType,System.Int32)">ExecuteDataReaderAsync(String, IEnumerable&lt;IDbDataParameter&gt;, CommandBehavior, CommandType, Int32)</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：执行数据库查询，并返回实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;IDataReader&gt;&gt; ExecuteDataReaderAsync(string selectCmdText, IEnumerable&lt;IDbDataParameter&gt; parameters = null, CommandBehavior behavior = CommandBehavior.Default, CommandType cmdType = CommandType.Text, int selectCmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectCmdText</span></td>
+        <td><p>数据库查询命令文本。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.IDbDataParameter</span>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例集合。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandBehavior</span></td>
+        <td><span class="parametername">behavior</span></td>
+        <td><p><span class="xref">System.Data.CommandBehavior</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">selectCmdTimeout</span></td>
+        <td><p>查询命令超时时间。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">System.Data.IDataReader</span>&gt;&gt;</td>
+        <td><p>实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReaderAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandBehavior_System_Data_CommandType_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.CommandBehavior</span></div>
+      <div><span class="xref">System.Data.IDataReader</span></div>
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReaderAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReaderAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReaderAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataReaderAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32)">ExecuteDataReaderAsync(String, IEnumerable&lt;IDbDataParameter&gt;, CommandType, Int32)</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：执行数据库查询，并返回实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;IDataReader&gt;&gt; ExecuteDataReaderAsync(string selectCmdText, IEnumerable&lt;IDbDataParameter&gt; parameters = null, CommandType cmdType = CommandType.Text, int selectCmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectCmdText</span></td>
+        <td><p>数据库查询命令文本。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.IDbDataParameter</span>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例集合。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">selectCmdTimeout</span></td>
+        <td><p>查询命令超时时间。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">System.Data.IDataReader</span>&gt;&gt;</td>
+        <td><p>实现了 <span class="xref">System.Data.IDataReader</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataReaderAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.IDataReader</span></div>
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataSet_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataSet*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataSet_System_Data_IDbCommand_System_String_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataSet(System.Data.IDbCommand,System.String)">ExecuteDataSet(IDbCommand, String)</h4>
+  <div class="markdown level1 summary"><p>执行数据库查询，并返回 <span class="xref">System.Data.DataSet</span> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DataSet ExecuteDataSet(IDbCommand selectCmd, string dataSetName = &quot;system.data.dataSet&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><span class="parametername">selectCmd</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dataSetName</span></td>
+        <td><p>数据集名称。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataSet</span></td>
+        <td><p><span class="xref">System.Data.DataSet</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataSet_System_Data_IDbCommand_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.DataSet</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataSet_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataSet*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataSet_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_System_String_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataSet(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32,System.String)">ExecuteDataSet(String, IEnumerable&lt;IDbDataParameter&gt;, CommandType, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>执行数据库查询，并返回 <span class="xref">System.Data.DataSet</span> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DataSet ExecuteDataSet(string selectCmdText, IEnumerable&lt;IDbDataParameter&gt; parameters = null, CommandType selectCmdType = CommandType.Text, int selectCmdTimeout = 0, string dataSetName = &quot;system.data.dataSet&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectCmdText</span></td>
+        <td><p>数据库查询命令。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.IDbDataParameter</span>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例集合。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">selectCmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">selectCmdTimeout</span></td>
+        <td><p>数据库查询命令超时时间。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dataSetName</span></td>
+        <td><p>数据集名称。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataSet</span></td>
+        <td><p><span class="xref">System.Data.DataSet</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataSet_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.DataSet</span></div>
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataSetAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataSetAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataSetAsync_System_Data_IDbCommand_System_String_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataSetAsync(System.Data.IDbCommand,System.String)">ExecuteDataSetAsync(IDbCommand, String)</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：执行数据库查询，并返回 <span class="xref">System.Data.DataSet</span> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;DataSet&gt;&gt; ExecuteDataSetAsync(IDbCommand selectCmd, string dataSetName = &quot;system.data.dataSet&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><span class="parametername">selectCmd</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dataSetName</span></td>
+        <td><p>数据集名称。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">System.Data.DataSet</span>&gt;&gt;</td>
+        <td><p><span class="xref">System.Data.DataSet</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataSetAsync_System_Data_IDbCommand_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.DataSet</span></div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataSetAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataSetAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataSetAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_System_String_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataSetAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32,System.String)">ExecuteDataSetAsync(String, IEnumerable&lt;IDbDataParameter&gt;, CommandType, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：执行数据库查询，并返回 <span class="xref">System.Data.DataSet</span> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;DataSet&gt;&gt; ExecuteDataSetAsync(string selectCmdText, IEnumerable&lt;IDbDataParameter&gt; parameters = null, CommandType selectCmdType = CommandType.Text, int selectCmdTimeout = 0, string dataSetName = &quot;system.data.dataSet&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectCmdText</span></td>
+        <td><p>数据库查询命令。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.IDbDataParameter</span>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例集合。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">selectCmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">selectCmdTimeout</span></td>
+        <td><p>数据库查询命令超时时间。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dataSetName</span></td>
+        <td><p>数据集名称。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">System.Data.DataSet</span>&gt;&gt;</td>
+        <td><p><span class="xref">System.Data.DataSet</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataSetAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.DataSet</span></div>
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataTable_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataTable*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataTable_System_Data_IDbCommand_System_String_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataTable(System.Data.IDbCommand,System.String)">ExecuteDataTable(IDbCommand, String)</h4>
+  <div class="markdown level1 summary"><p>执行数据库查询，并返回 <span class="xref">System.Data.DataTable</span> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DataTable ExecuteDataTable(IDbCommand selectCmd, string dataTableName = &quot;system.data.dataTable&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><span class="parametername">selectCmd</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dataTableName</span></td>
+        <td><p>数据集名称。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><p><span class="xref">System.Data.DataSet</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataTable_System_Data_IDbCommand_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.DataTable</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataTable_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataTable*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataTable_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_System_String_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataTable(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32,System.String)">ExecuteDataTable(String, IEnumerable&lt;IDbDataParameter&gt;, CommandType, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>执行数据库查询，并返回 <span class="xref">System.Data.DataTable</span> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DataTable ExecuteDataTable(string selectCmdText, IEnumerable&lt;IDbDataParameter&gt; parameters = null, CommandType selectCmdType = CommandType.Text, int selectCmdTimeout = 0, string dataTableName = &quot;system.data.dataTable&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectCmdText</span></td>
+        <td><p>数据库查询命令。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.IDbDataParameter</span>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例集合。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">selectCmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">selectCmdTimeout</span></td>
+        <td><p>数据库查询命令超时时间。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dataTableName</span></td>
+        <td><p>数据集名称。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><p><span class="xref">System.Data.DataTable</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataTable_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.DataSet</span></div>
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataTableAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataTableAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataTableAsync_System_Data_IDbCommand_System_String_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataTableAsync(System.Data.IDbCommand,System.String)">ExecuteDataTableAsync(IDbCommand, String)</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：执行数据库查询，并返回 <span class="xref">System.Data.DataTable</span> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;DataTable&gt;&gt; ExecuteDataTableAsync(IDbCommand selectCmd, string dataTableName = &quot;system.data.dataTable&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><span class="parametername">selectCmd</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dataTableName</span></td>
+        <td><p>数据集名称。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">System.Data.DataTable</span>&gt;&gt;</td>
+        <td><p><span class="xref">System.Data.DataSet</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataTableAsync_System_Data_IDbCommand_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.DataTable</span></div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataTableAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataTableAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataTableAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_System_String_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.ExecuteDataTableAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32,System.String)">ExecuteDataTableAsync(String, IEnumerable&lt;IDbDataParameter&gt;, CommandType, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：执行数据库查询，并返回 <span class="xref">System.Data.DataTable</span> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;DataTable&gt;&gt; ExecuteDataTableAsync(string selectCmdText, IEnumerable&lt;IDbDataParameter&gt; parameters = null, CommandType selectCmdType = CommandType.Text, int selectCmdTimeout = 0, string dataTableName = &quot;system.data.dataTable&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectCmdText</span></td>
+        <td><p>数据库查询命令。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.IDbDataParameter</span>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例集合。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">selectCmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">selectCmdTimeout</span></td>
+        <td><p>数据库查询命令超时时间。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dataTableName</span></td>
+        <td><p>数据集名称。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">System.Data.DataTable</span>&gt;&gt;</td>
+        <td><p><span class="xref">System.Data.DataTable</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbSelectCommand_ExecuteDataTableAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.DataSet</span></div>
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

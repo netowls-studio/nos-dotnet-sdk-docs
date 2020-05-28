@@ -1,0 +1,595 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface INativeDbCommand
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface INativeDbCommand
+   ">
+    <meta name="generator" content="docfx 2.54.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand">
+  
+  
+  <h1 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand" class="text-break">Interface INativeDbCommand
+  </h1>
+  <div class="markdown level0 summary"><p>定义了 ADO.NET 数据库命令的接口。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.html">NetowlsStudio.Sdk.Extensions.Data</a></h6>
+  <h6><strong>Assembly</strong>: NosFramework.Extensions.Ado.Native.Abstractions.dll</h6>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface INativeDbCommand</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_AddParameter_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.AddParameter*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_AddParameter_System_Data_IDbCommand_System_Data_IDbDataParameter_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.AddParameter(System.Data.IDbCommand,System.Data.IDbDataParameter)">AddParameter(IDbCommand, IDbDataParameter)</h4>
+  <div class="markdown level1 summary"><p>添加数据库命令参数。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDbCommand AddParameter(IDbCommand cmd, IDbDataParameter parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><span class="parametername">cmd</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbDataParameter</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_AddParameter_System_Data_IDbCommand_System_Data_IDbDataParameter__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_AddParameters_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.AddParameters*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_AddParameters_System_Data_IDbCommand_System_Data_IDbDataParameter___" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.AddParameters(System.Data.IDbCommand,System.Data.IDbDataParameter[])">AddParameters(IDbCommand, IDbDataParameter[])</h4>
+  <div class="markdown level1 summary"><p>添加数据库命令参数。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDbCommand AddParameters(IDbCommand cmd, params IDbDataParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><span class="parametername">cmd</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbDataParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例数组。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_AddParameters_System_Data_IDbCommand_System_Data_IDbDataParameter____seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateCommand_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.CreateCommand*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateCommand_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Data_IDbTransaction_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.CreateCommand(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)">CreateCommand(String, IEnumerable&lt;IDbDataParameter&gt;, CommandType, IDbTransaction, Int32)</h4>
+  <div class="markdown level1 summary"><p>创建数据库命令。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDbCommand CreateCommand(string cmdText, IEnumerable&lt;IDbDataParameter&gt; parameters = null, CommandType cmdType = CommandType.Text, IDbTransaction transaction = null, int cmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cmdText</span></td>
+        <td><p>数据库命令文本。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.IDbDataParameter</span>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>数据库命令参数集合。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbTransaction</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cmdTimeout</span></td>
+        <td><p>数据库命令执行超时。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateCommand_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Data_IDbTransaction_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><span class="xref">System.Data.IDbTransaction</span></div>
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateInParameter_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.CreateInParameter*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateInParameter_System_String_System_Object_System_Data_DbType_System_Nullable_System_Int32__" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.CreateInParameter(System.String,System.Object,System.Data.DbType,System.Nullable{System.Int32})">CreateInParameter(String, Object, DbType, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>创建数据库命令参数。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDbDataParameter CreateInParameter(string name, object value = null, DbType dbType = DbType.Object, int? size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>参数名。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>参数值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.DbType</span></td>
+        <td><span class="parametername">dbType</span></td>
+        <td><p><span class="xref">System.Data.DbType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">size</span></td>
+        <td><p>参数长度。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbDataParameter</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateInParameter_System_String_System_Object_System_Data_DbType_System_Nullable_System_Int32___seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.ParameterDirection.Input</span></div>
+      <div><span class="xref">System.Data.DbType</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateOutParameter_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.CreateOutParameter*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateOutParameter_System_String_System_Object_System_Data_DbType_System_Nullable_System_Int32__" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.CreateOutParameter(System.String,System.Object,System.Data.DbType,System.Nullable{System.Int32})">CreateOutParameter(String, Object, DbType, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>创建数据库命令参数。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDbDataParameter CreateOutParameter(string name, object value = null, DbType dbType = DbType.Object, int? size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>参数名。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>参数值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.DbType</span></td>
+        <td><span class="parametername">dbType</span></td>
+        <td><p><span class="xref">System.Data.DbType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">size</span></td>
+        <td><p>参数长度。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbDataParameter</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateOutParameter_System_String_System_Object_System_Data_DbType_System_Nullable_System_Int32___seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.ParameterDirection.Output</span></div>
+      <div><span class="xref">System.Data.DbType</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateParameter_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.CreateParameter*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateParameter_System_String_System_Object_System_Data_ParameterDirection_System_Data_DbType_System_Nullable_System_Int32__" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.CreateParameter(System.String,System.Object,System.Data.ParameterDirection,System.Data.DbType,System.Nullable{System.Int32})">CreateParameter(String, Object, ParameterDirection, DbType, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>创建数据库命令参数。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDbDataParameter CreateParameter(string name, object value = null, ParameterDirection direction = ParameterDirection.Input, DbType dbType = DbType.Object, int? size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>参数名。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>参数值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.ParameterDirection</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p><span class="xref">System.Data.ParameterDirection</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.DbType</span></td>
+        <td><span class="parametername">dbType</span></td>
+        <td><p><span class="xref">System.Data.DbType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">size</span></td>
+        <td><p>参数长度。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbDataParameter</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbDataParameter</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateParameter_System_String_System_Object_System_Data_ParameterDirection_System_Data_DbType_System_Nullable_System_Int32___seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.ParameterDirection</span></div>
+      <div><span class="xref">System.Data.DbType</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateStoredProcedure_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.CreateStoredProcedure*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateStoredProcedure_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_IDbTransaction_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.CreateStoredProcedure(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.IDbTransaction,System.Int32)">CreateStoredProcedure(String, IEnumerable&lt;IDbDataParameter&gt;, IDbTransaction, Int32)</h4>
+  <div class="markdown level1 summary"><p>创建数据库存储过程命令。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDbCommand CreateStoredProcedure(string cmdText, IEnumerable&lt;IDbDataParameter&gt; parameters = null, IDbTransaction transaction = null, int cmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cmdText</span></td>
+        <td><p>数据库命令文本。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.IDbDataParameter</span>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>数据库命令参数集合。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbTransaction</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cmdTimeout</span></td>
+        <td><p>数据库命令执行超时。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><p>实现了 <span class="xref">System.Data.IDbCommand</span> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_INativeDbCommand_CreateStoredProcedure_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_IDbTransaction_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Data.IDbCommand</span></div>
+      <div><span class="xref">System.Data.IDbDataParameter</span></div>
+      <div><span class="xref">System.Data.CommandType.StoredProcedure</span></div>
+      <div><span class="xref">System.Data.IDbTransaction</span></div>
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
