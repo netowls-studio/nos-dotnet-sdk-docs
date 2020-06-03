@@ -1,0 +1,849 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class IDatabaseExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class IDatabaseExtensions
+   ">
+    <meta name="generator" content="docfx 2.54.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions">
+  
+  
+  <h1 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions" class="text-break">Class IDatabaseExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>为 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a> 类型提供的扩展方法。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">IDatabaseExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.Entity.html">NetowlsStudio.Sdk.Extensions.Data.Entity</a></h6>
+  <h6><strong>Assembly</strong>: NosFramework.Extensions.Ado.DapperORM.dll</h6>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class IDatabaseExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_MultipleQuery_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQuery*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_MultipleQuery_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQuery(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Int32)">MultipleQuery(IDatabase, String, Object, CommandType, Int32)</h4>
+  <div class="markdown level1 summary"><p>执行数据库查询，并返回 <span class="xref">Dapper.SqlMapper.GridReader</span> 类型的集合。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SqlMapper.GridReader MultipleQuery(this IDatabase database, string selectCmdText, object parameter = null, CommandType cmdType = CommandType.Text, int cmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></td>
+        <td><span class="parametername">database</span></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectCmdText</span></td>
+        <td><p>数据库查询命令。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>动态参数。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cmdTimeout</span></td>
+        <td><p>数据库查询超时。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dapper.SqlMapper.GridReader</span></td>
+        <td><p><span class="xref">Dapper.SqlMapper.GridReader</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_MultipleQuery_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</div>
+      <div><span class="xref">Dapper.SqlMapper.GridReader</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_MultipleQueryAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQueryAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_MultipleQueryAsync_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQueryAsync(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Int32)">MultipleQueryAsync(IDatabase, String, Object, CommandType, Int32)</h4>
+  <div class="markdown level1 summary"><p>执行数据库查询，并返回 <span class="xref">Dapper.SqlMapper.GridReader</span> 类型的集合。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;AsyncTaskResult&lt;SqlMapper.GridReader&gt;&gt; MultipleQueryAsync(this IDatabase database, string selectCmdText, object parameter = null, CommandType cmdType = CommandType.Text, int cmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></td>
+        <td><span class="parametername">database</span></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectCmdText</span></td>
+        <td><p>数据库查询命令。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>动态参数。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cmdTimeout</span></td>
+        <td><p>数据库查询超时。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">Dapper.SqlMapper.GridReader</span>&gt;&gt;</td>
+        <td><p><span class="xref">Dapper.SqlMapper.GridReader</span> 类型的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_MultipleQueryAsync_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</div>
+      <div><span class="xref">Dapper.SqlMapper.GridReader</span></div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Query_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Query*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Query__1_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Query``1(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Int32)">Query&lt;TRow&gt;(IDatabase, String, Object, CommandType, Int32)</h4>
+  <div class="markdown level1 summary"><p>执行数据库查询，并返回 <code data-dev-comment-type="typeparamref" class="typeparamref">TRow</code> 类型的集合。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TRow&gt; Query&lt;TRow&gt;(this IDatabase database, string selectCmdText, object parameter = null, CommandType cmdType = CommandType.Text, int cmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></td>
+        <td><span class="parametername">database</span></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectCmdText</span></td>
+        <td><p>数据库查询命令。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>动态参数。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cmdTimeout</span></td>
+        <td><p>数据库查询超时。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TRow&gt;</td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">TRow</code> 类型的行集合。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRow</span></td>
+        <td><p>实体类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Query__1_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_QueryAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.QueryAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_QueryAsync__1_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.QueryAsync``1(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Int32)">QueryAsync&lt;TRow&gt;(IDatabase, String, Object, CommandType, Int32)</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：执行数据库查询，并返回 <code data-dev-comment-type="typeparamref" class="typeparamref">TRow</code> 类型的集合。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;AsyncTaskResult&lt;IEnumerable&lt;TRow&gt;&gt;&gt; QueryAsync&lt;TRow&gt;(this IDatabase database, string selectCmdText, object parameter = null, CommandType cmdType = CommandType.Text, int cmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></td>
+        <td><span class="parametername">database</span></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectCmdText</span></td>
+        <td><p>数据库查询命令。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>动态参数。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cmdTimeout</span></td>
+        <td><p>数据库查询超时。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TRow&gt;&gt;&gt;</td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">TRow</code> 类型的行集合。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRow</span></td>
+        <td><p>实体类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_QueryAsync__1_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Scalar_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Scalar*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Scalar__1_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Data_IDbTransaction_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Scalar``1(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Data.IDbTransaction,System.Int32)">Scalar&lt;T&gt;(IDatabase, String, Object, CommandType, IDbTransaction, Int32)</h4>
+  <div class="markdown level1 summary"><p>执行数据库命令，并返回 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的标量值。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Scalar&lt;T&gt;(this IDatabase database, string cmdText, object parameter = null, CommandType cmdType = CommandType.Text, IDbTransaction transaction = null, int cmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></td>
+        <td><span class="parametername">database</span></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cmdText</span></td>
+        <td><p>数据库命令。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>动态参数。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>数据库事务。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cmdTimeout</span></td>
+        <td><p>数据库更新超时。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的标量值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>标量值类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Scalar__1_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Data_IDbTransaction_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><span class="xref">System.Data.IDbTransaction</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_ScalarAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.ScalarAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_ScalarAsync__1_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Data_IDbTransaction_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.ScalarAsync``1(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Data.IDbTransaction,System.Int32)">ScalarAsync&lt;T&gt;(IDatabase, String, Object, CommandType, IDbTransaction, Int32)</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：执行数据库命令，并返回 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的标量值。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;AsyncTaskResult&lt;T&gt;&gt; ScalarAsync&lt;T&gt;(this IDatabase database, string cmdText, object parameter = null, CommandType cmdType = CommandType.Text, IDbTransaction transaction = null, int cmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></td>
+        <td><span class="parametername">database</span></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cmdText</span></td>
+        <td><p>数据库命令。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>动态参数。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>数据库事务。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cmdTimeout</span></td>
+        <td><p>数据库更新超时。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;T&gt;&gt;</td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的标量值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>标量值类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_ScalarAsync__1_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Data_IDbTransaction_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><span class="xref">System.Data.IDbTransaction</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Update_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Update*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Update_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Data_IDbTransaction_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Update(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Data.IDbTransaction,System.Int32)">Update(IDatabase, String, Object, CommandType, IDbTransaction, Int32)</h4>
+  <div class="markdown level1 summary"><p>执行数据库更新，并返回影响行数。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Update(this IDatabase database, string updateCmdText, object parameter = null, CommandType cmdType = CommandType.Text, IDbTransaction transaction = null, int cmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></td>
+        <td><span class="parametername">database</span></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">updateCmdText</span></td>
+        <td><p>数据库更新命令。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>动态参数。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>数据库事务。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cmdTimeout</span></td>
+        <td><p>数据库更新超时。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>影响行数。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Update_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Data_IDbTransaction_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><span class="xref">System.Data.IDbTransaction</span></div>
+  </div>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_UpdateAsync_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.UpdateAsync*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_UpdateAsync_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Data_IDbTransaction_System_Int32_" data-uid="NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.UpdateAsync(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Data.IDbTransaction,System.Int32)">UpdateAsync(IDatabase, String, Object, CommandType, IDbTransaction, Int32)</h4>
+  <div class="markdown level1 summary"><p>(异步的方法)：执行数据库更新，并返回影响行数。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;AsyncTaskResult&lt;int&gt;&gt; UpdateAsync(this IDatabase database, string updateCmdText, object parameter = null, CommandType cmdType = CommandType.Text, IDbTransaction transaction = null, int cmdTimeout = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></td>
+        <td><span class="parametername">database</span></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a> 类型接口的对象实例。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">updateCmdText</span></td>
+        <td><p>数据库更新命令。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>动态参数。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.CommandType</span></td>
+        <td><span class="parametername">cmdType</span></td>
+        <td><p><span class="xref">System.Data.CommandType</span> 中的一个值。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>数据库事务。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cmdTimeout</span></td>
+        <td><p>数据库更新超时。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
+        <td><p>影响行数。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_UpdateAsync_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Data_IDbTransaction_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></div>
+      <div><span class="xref">System.Data.CommandType</span></div>
+      <div><span class="xref">System.Data.IDbTransaction</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Threading.Tasks.AsyncTaskResult-1.html">AsyncTaskResult</a>&lt;TResult&gt;</div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

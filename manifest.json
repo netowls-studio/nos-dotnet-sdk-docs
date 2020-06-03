@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "D:/Tools/docfx/nos-dotnet-sdk",
+  "source_base_path": "D:/Tools/Docfx/nos-dotnet-sdk",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -113,11 +113,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Data.DbProviderNameDefaults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Data.DbProviderNameDefaults.html",
+          "hash": "Rs2pbDGQeGC0Aso0d7D0HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetowlsStudio.Sdk.Data.yml",
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Data.html",
-          "hash": "6tnilJ6u7j9kGbyvEyqZvA=="
+          "hash": "yoakq5is33PmVAQENSp3ng=="
         }
       },
       "is_incremental": false,
@@ -177,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.ExceptionExtensions.html",
-          "hash": "YisxO13+AZ8M/4gJSQZSrA=="
+          "hash": "yIQPxlDBxtZpExPUXYj8lA=="
         }
       },
       "is_incremental": false,
@@ -285,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Extensions.Configuration.DependencyInjection.IServiceCollectionExtensions.html",
-          "hash": "fyKvg+ku8+RtFXGMz/Z1Mg=="
+          "hash": "UbVAdhMGZuSZTUyFm4wC2g=="
         }
       },
       "is_incremental": false,
@@ -333,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Extensions.Configuration.Unity.IUnityContainerExtensions.html",
-          "hash": "5sDXuJYg2eKzOpho3lmpkw=="
+          "hash": "xdDm0KaM3f2u5f0Z6C0pFw=="
         }
       },
       "is_incremental": false,
@@ -358,6 +370,186 @@
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Extensions.Configuration.html",
           "hash": "0u+M+tJzVjBL5sTjkYQFaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.html",
+          "hash": "mBFiaUL35yyIohPvwT/IXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Annotations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Annotations.html",
+          "hash": "vYMkTvsFrWMbfw2g0sXD2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html",
+          "hash": "TybQ8+YaO0I1vY0R3Qhy0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.html",
+          "hash": "aLPI/JR78/VPEKhpbLItjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.html",
+          "hash": "xeYTWhhVbBKH4F26Uq8xVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Common.html",
+          "hash": "MMrPVTiPFu0tn/UQqVASQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.DatabaseFactoryDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.DatabaseFactoryDictionary.html",
+          "hash": "eHCPE2hVb8SpiJ2IviRObg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.html",
+          "hash": "cpEspgzIGBX6Etv/9tXzmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions.html",
+          "hash": "qKM7zhnrbm72sEcX6crWag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.html",
+          "hash": "+172Ahr5tFvQCLEtmoNcfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html",
+          "hash": "qSBfg1aDm+jYZLYJGcsOBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Entity.html",
+          "hash": "cn6n3L9SqNm78iPgnWNstA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.IDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.IDatabase.html",
+          "hash": "nv1AQfv3Cz7EvxlXlYmd8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.html",
+          "hash": "MxE548IfAhawkwXbpCNb+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.html",
+          "hash": "b1gejzZtfj8UVvqfmeeP4w=="
         }
       },
       "is_incremental": false,
@@ -413,11 +605,323 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions.html",
+          "hash": "WLooQ9w71xBtaod6U8jmwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.IMySqlDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.IMySqlDatabase.html",
+          "hash": "6sTmU0uNCj9TNAldAQZpsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand.html",
+          "hash": "vwQBGxP0aAs7ZZaqJ4uaSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection.html",
+          "hash": "YcEDKAx3ybhxuUigjbEXLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions.html",
+          "hash": "M84sFtSS3QgdfBNwsa0vtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html",
+          "hash": "KICsCnPRm3zd1YML+YfRFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.html",
+          "hash": "C0QTxE9p92K1+4WPAO3QyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.MySql.html",
+          "hash": "489zyghNDngqwlmjKZVIWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.html",
+          "hash": "t6zHhIckk0M/YW/dWsGPzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.html",
+          "hash": "tdVa900FI6axWUBq1r6mMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlDatabase.html",
+          "hash": "WeR8B8bl8lvDVtj/RqD3Zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.html",
+          "hash": "MrDZUW60Asq1PwVWlZP2lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection.html",
+          "hash": "StQoQjMxEit92W/DyaQN9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions.html",
+          "hash": "agXsrFstbylTHLQ67e8hUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html",
+          "hash": "U5d1JVYuIUkJLUN7KYCa7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory.html",
+          "hash": "MYBBbNxaCr4m0o6tbfMj4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.html",
+          "hash": "tQVvJ392WJKbsAU/xrEK7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand.html",
+          "hash": "RtOxzPHC9Oyng31SiMx2ZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.html",
+          "hash": "b4L2OfZJ9cXMtU5t0VAowQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions.html",
+          "hash": "od4XQvyIQGATskVdsv7N8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISqlDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISqlDatabase.html",
+          "hash": "Ss0WANzsEnvVduvW8GKu8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html",
+          "hash": "wu1rR8yIzsYkUKH6W8Gf7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory.html",
+          "hash": "8DcU36n10DBzJOdQSPH1Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.html",
+          "hash": "MVbwye7zVu6hsb/Sc26bBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions.html",
+          "hash": "iFqZJsqdi85DS/RS+DE3KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Unity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.Unity.html",
+          "hash": "pboSlE1ZWRY+zk0jkrUN2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.yml",
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Extensions.Data.html",
-          "hash": "Hb1t3tttK2iKSPV1qMkzNg=="
+          "hash": "C0aY6DafQjiScV16JjUuPw=="
         }
       },
       "is_incremental": false,
@@ -573,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Extensions.Logging.Unity.IUnityContainerExtensions.html",
-          "hash": "35z7r1JxG7gKUPB3LPaEFw=="
+          "hash": "Ep0Yx8nBEiAiwMbmZrWF5A=="
         }
       },
       "is_incremental": false,
@@ -681,7 +1185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.ISdkIntegrationInterface.html",
-          "hash": "O85WzIXxCVN8e1+iT/Dp5g=="
+          "hash": "pwNk1UMz0dtzjH1DliQnJA=="
         }
       },
       "is_incremental": false,
@@ -1209,7 +1713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Runtime.Serialization.Binary.BinarySerializationServiceProvider.html",
-          "hash": "8UxpzIkEedi2+5jzrDlX9w=="
+          "hash": "TTWYvJllo0ugQ0FsC4RKHg=="
         }
       },
       "is_incremental": false,
@@ -1257,7 +1761,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Runtime.Serialization.ISerializationService.html",
-          "hash": "A1KS0rng3jMQ+D+5Qb0lVw=="
+          "hash": "ipan4hOZO2+NN6cO7iDc7A=="
         }
       },
       "is_incremental": false,
@@ -1293,7 +1797,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Runtime.Serialization.Json.IJsonSerialiationExtendedService.html",
-          "hash": "TNVPRDRXL+Fgjmd8GyJW7A=="
+          "hash": "F0isF4bP+FI/I2NuAEMuWg=="
         }
       },
       "is_incremental": false,
@@ -1317,7 +1821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Runtime.Serialization.Json.JsonSerializationServiceProvider.html",
-          "hash": "Nfn8G58RRlM95Ga1Bo3YLA=="
+          "hash": "glIyIK+Pica8ICYISuowtQ=="
         }
       },
       "is_incremental": false,
@@ -1389,7 +1893,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Runtime.Serialization.SerializationServiceProvider.html",
-          "hash": "9dwE5sZWU+Jmn61H6gVrtw=="
+          "hash": "7OLQ4MlOhntIpy06UPIwpg=="
         }
       },
       "is_incremental": false,
@@ -1449,7 +1953,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Runtime.Serialization.Xml.XmlSerializationServiceProvider.html",
-          "hash": "Hgjw8zqwyZZH+NL8xRGszg=="
+          "hash": "qAE006Qx1H/6x21ThUigOQ=="
         }
       },
       "is_incremental": false,
@@ -1509,7 +2013,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.SdkIntegrationSlot.html",
-          "hash": "mpckWIvshKcwTeNOKREuKQ=="
+          "hash": "gHmT9tRp1nsPKnNjN5v3tA=="
         }
       },
       "is_incremental": false,
@@ -1557,7 +2061,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.StringExtensions.html",
-          "hash": "zM1FvWe9/mxftDKycvcBzA=="
+          "hash": "IrApcuvvk2Y7xFhdPw5Suw=="
         }
       },
       "is_incremental": false,
@@ -1641,7 +2145,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NetowlsStudio.Sdk.Utilities.Guard.html",
-          "hash": "ze5ecqKtSfyMPF78wYTbpg=="
+          "hash": "Otg+FDuqg8xNu2aSPutjgg=="
         }
       },
       "is_incremental": false,
@@ -1689,7 +2193,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NosFramework.Extensions.Logging.DI.IServiceCollectionExtensions.html",
-          "hash": "hnORxYp/w7NF1uUjNWN4cA=="
+          "hash": "mx/mphbNn220rBljTF0AOA=="
         }
       },
       "is_incremental": false,
@@ -1725,7 +2229,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "32kI4qgwJ/YrZ1FepnvDtQ=="
+          "hash": "rYU7eHgPkUbiYaALzm0New=="
         }
       },
       "is_incremental": false,
@@ -1767,16 +2271,19 @@
           "hash": "iZZNEg1GAhTksUoC8COK3w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "kMuSn1zDhqT6y/ShO+Oyxg=="
+          "hash": "oea54eBZVeYPXlctcqqmGA=="
         }
       },
       "is_incremental": false,
@@ -1801,8 +2308,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 142,
-          "skipped_file_count": 87
+          "total_file_count": 184,
+          "skipped_file_count": 97
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

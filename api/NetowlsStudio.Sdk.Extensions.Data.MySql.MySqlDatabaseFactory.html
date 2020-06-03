@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class IUnityContainerExtensions
+    <title>Class MySqlDatabaseFactory
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class IUnityContainerExtensions
+    <meta name="title" content="Class MySqlDatabaseFactory
    ">
     <meta name="generator" content="docfx 2.54.0.0">
     
@@ -68,21 +68,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetowlsStudio.Sdk.Extensions.Logging.Unity.IUnityContainerExtensions">
+            <article class="content wrap" id="_content" data-uid="NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory">
   
   
-  <h1 id="NetowlsStudio_Sdk_Extensions_Logging_Unity_IUnityContainerExtensions" data-uid="NetowlsStudio.Sdk.Extensions.Logging.Unity.IUnityContainerExtensions" class="text-break">Class IUnityContainerExtensions
+  <h1 id="NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabaseFactory" data-uid="NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory" class="text-break">Class MySqlDatabaseFactory
   </h1>
-  <div class="markdown level0 summary"><p>为 <span class="xref">Unity.IUnityContainer</span> 类型提供的扩展方法。</p>
+  <div class="markdown level0 summary"><p>提供了创建 ADO.NET 访问 MySQL 数据库相关的方法。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">IUnityContainerExtensions</span></div>
+    <div class="level1"><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.html">DatabaseFactory</a></div>
+    <div class="level2"><span class="xref">MySqlDatabaseFactory</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.html">IDatabaseFactory</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseFactory_Create_System_String_">DatabaseFactory.Create(String)</a>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -105,26 +113,25 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.Unity.html">NetowlsStudio.Sdk.Extensions.Logging.Unity</a></h6>
-  <h6><strong>Assembly</strong>: NosFramework.Extensions.Logging.DI.Unity.dll</h6>
-  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_Unity_IUnityContainerExtensions_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.MySql.html">NetowlsStudio.Sdk.Extensions.Data.MySql</a></h6>
+  <h6><strong>Assembly</strong>: NosFramework.Extensions.Ado.Native.MySqlConnector.dll</h6>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabaseFactory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class IUnityContainerExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">[DbProviderName(&quot;System.Data.MySql&quot;)]
+public class MySqlDatabaseFactory : DatabaseFactory, IDatabaseFactory</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="NetowlsStudio_Sdk_Extensions_Logging_Unity_IUnityContainerExtensions_AddLogWriterServiceProvider_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.Unity.IUnityContainerExtensions.AddLogWriterServiceProvider*"></a>
-  <h4 id="NetowlsStudio_Sdk_Extensions_Logging_Unity_IUnityContainerExtensions_AddLogWriterServiceProvider__1_Unity_IUnityContainer_System_Boolean_" data-uid="NetowlsStudio.Sdk.Extensions.Logging.Unity.IUnityContainerExtensions.AddLogWriterServiceProvider``1(Unity.IUnityContainer,System.Boolean)">AddLogWriterServiceProvider&lt;TService&gt;(IUnityContainer, Boolean)</h4>
-  <div class="markdown level1 summary"><p>添加日志服务。</p>
+  <a id="NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabaseFactory_InternalCreate_" data-uid="NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.InternalCreate*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabaseFactory_InternalCreate_System_String_" data-uid="NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.InternalCreate(System.String)">InternalCreate(String)</h4>
+  <div class="markdown level1 summary"><p>创建 ADO.NET 数据库访问程序对象实例。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IUnityContainer AddLogWriterServiceProvider&lt;TService&gt;(this IUnityContainer container, bool addToFacade = true)
-
-    where TService : class, ILogWriterService</code></pre>
+    <pre><code class="lang-csharp hljs">protected override IDatabase InternalCreate(string connectionString)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -137,15 +144,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Unity.IUnityContainer</span></td>
-        <td><span class="parametername">container</span></td>
-        <td><p>实现了 <span class="xref">Unity.IUnityContainer</span> 类型接口的对象实例。</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">addToFacade</span></td>
-        <td><p>是否将 <code data-dev-comment-type="typeparamref" class="typeparamref">TService</code> 添加到 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogWriter.html">LogWriter</a> 中。</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>数据库连接串。</p>
 </td>
       </tr>
     </tbody>
@@ -160,72 +161,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Unity.IUnityContainer</span></td>
-        <td><p>实现了 <span class="xref">Unity.IUnityContainer</span> 类型接口的对象实例。</p>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a> 类型接口的对象实例。</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TService</span></td>
-        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.html">ILogWriterService</a> 接口的类型。</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.TargetInvocationException</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.MethodAccessException</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.MemberAccessException</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Runtime.InteropServices.InvalidComObjectException</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.MissingMethodException</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Runtime.InteropServices.COMException</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.TypeLoadException</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="NetowlsStudio_Sdk_Extensions_Logging_Unity_IUnityContainerExtensions_AddLogWriterServiceProvider__1_Unity_IUnityContainer_System_Boolean__seealso">See Also</h5>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseFactory_InternalCreate_System_String_">DatabaseFactory.InternalCreate(String)</a></div>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabaseFactory_InternalCreate_System_String__seealso">See Also</h5>
   <div class="seealso">
-      <div><span class="xref">Unity.IUnityContainer</span></div>
-      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.ILogWriterService.html">ILogWriterService</a></div>
-      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Logging.LogWriter.html">LogWriter</a></div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></div>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.html">IDatabaseFactory</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.html">DatabaseFactory</a></div>
   </div>
 </article>
           </div>

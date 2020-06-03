@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ExceptionExtensions
+    <title>Class ISdkIntegrationInterfaceExtensions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ExceptionExtensions
+    <meta name="title" content="Class ISdkIntegrationInterfaceExtensions
    ">
     <meta name="generator" content="docfx 2.54.0.0">
     
@@ -68,18 +68,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetowlsStudio.Sdk.ExceptionExtensions">
+            <article class="content wrap" id="_content" data-uid="NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions">
   
   
-  <h1 id="NetowlsStudio_Sdk_ExceptionExtensions" data-uid="NetowlsStudio.Sdk.ExceptionExtensions" class="text-break">Class ExceptionExtensions
+  <h1 id="NetowlsStudio_Sdk_Extensions_Data_PostgreSql_Configuration_ISdkIntegrationInterfaceExtensions" data-uid="NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions" class="text-break">Class ISdkIntegrationInterfaceExtensions
   </h1>
-  <div class="markdown level0 summary"><p>为 <span class="xref">System.Exception</span> 类型提供的扩展方法。</p>
+  <div class="markdown level0 summary"><p>为 <a class="xref" href="NetowlsStudio.Sdk.ISdkIntegrationInterface.html">ISdkIntegrationInterface</a> 类型提供的扩展方法。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ExceptionExtensions</span></div>
+    <div class="level1"><span class="xref">ISdkIntegrationInterfaceExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,25 +105,24 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NetowlsStudio.Sdk.html">NetowlsStudio.Sdk</a></h6>
-  <h6><strong>Assembly</strong>: NosFramework.Common.dll</h6>
-  <h5 id="NetowlsStudio_Sdk_ExceptionExtensions_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.html">NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration</a></h6>
+  <h6><strong>Assembly</strong>: NosFramework.Extensions.Ado.Native.PostgreSql.Json.dll</h6>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_PostgreSql_Configuration_ISdkIntegrationInterfaceExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ExceptionExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ISdkIntegrationInterfaceExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="NetowlsStudio_Sdk_ExceptionExtensions_GetDescriptor_" data-uid="NetowlsStudio.Sdk.ExceptionExtensions.GetDescriptor*"></a>
-  <h4 id="NetowlsStudio_Sdk_ExceptionExtensions_GetDescriptor_System_Exception_System_String_" data-uid="NetowlsStudio.Sdk.ExceptionExtensions.GetDescriptor(System.Exception,System.String)">GetDescriptor(Exception, String)</h4>
-  <div class="markdown level1 summary"><p>获取异常描述。</p>
-<p> <a class="xref" href="NetowlsStudio.Sdk.ExceptionDescriptor.html">ExceptionDescriptor</a> 类型的对象实例。 </p>
+  <a id="NetowlsStudio_Sdk_Extensions_Data_PostgreSql_Configuration_ISdkIntegrationInterfaceExtensions_UseJsonNetAsPostgreSqlStorage_" data-uid="NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_PostgreSql_Configuration_ISdkIntegrationInterfaceExtensions_UseJsonNetAsPostgreSqlStorage_NetowlsStudio_Sdk_ISdkIntegrationInterface_" data-uid="NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage(NetowlsStudio.Sdk.ISdkIntegrationInterface)">UseJsonNetAsPostgreSqlStorage(ISdkIntegrationInterface)</h4>
+  <div class="markdown level1 summary"><p>使用 Newtonsoft.Json 座位 PostgreSQL Json 数据的存储。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ExceptionDescriptor GetDescriptor(this Exception error, string scenes = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static ISdkIntegrationInterface UseJsonNetAsPostgreSqlStorage(this ISdkIntegrationInterface slot)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,15 +135,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">error</span></td>
-        <td><p>运行时异常。</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">scenes</span></td>
-        <td><p>引发异常时的场景描述信息。</p>
+        <td><a class="xref" href="NetowlsStudio.Sdk.ISdkIntegrationInterface.html">ISdkIntegrationInterface</a></td>
+        <td><span class="parametername">slot</span></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.ISdkIntegrationInterface.html">ISdkIntegrationInterface</a> 类型接口的对象实例。</p>
 </td>
       </tr>
     </tbody>
@@ -159,29 +152,26 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NetowlsStudio.Sdk.ExceptionDescriptor.html">ExceptionDescriptor</a></td>
-        <td><p><a class="xref" href="NetowlsStudio.Sdk.ExceptionDescriptor.html">ExceptionDescriptor</a> 类型的对象实例。</p>
+        <td><a class="xref" href="NetowlsStudio.Sdk.ISdkIntegrationInterface.html">ISdkIntegrationInterface</a></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.ISdkIntegrationInterface.html">ISdkIntegrationInterface</a> 类型接口的对象实例。</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="NetowlsStudio_Sdk_ExceptionExtensions_GetDescriptor_System_Exception_System_String__seealso">See Also</h5>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_PostgreSql_Configuration_ISdkIntegrationInterfaceExtensions_UseJsonNetAsPostgreSqlStorage_NetowlsStudio_Sdk_ISdkIntegrationInterface__seealso">See Also</h5>
   <div class="seealso">
-      <div><a class="xref" href="NetowlsStudio.Sdk.ExceptionDescriptor.html">ExceptionDescriptor</a></div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.ISdkIntegrationInterface.html">ISdkIntegrationInterface</a></div>
   </div>
   
   
-  <a id="NetowlsStudio_Sdk_ExceptionExtensions_GetDescriptor_" data-uid="NetowlsStudio.Sdk.ExceptionExtensions.GetDescriptor*"></a>
-  <h4 id="NetowlsStudio_Sdk_ExceptionExtensions_GetDescriptor__1_System_Exception_System_String_System_Func_System_Exception_System_String___0__" data-uid="NetowlsStudio.Sdk.ExceptionExtensions.GetDescriptor``1(System.Exception,System.String,System.Func{System.Exception,System.String,``0})">GetDescriptor&lt;T&gt;(Exception, String, Func&lt;Exception, String, T&gt;)</h4>
-  <div class="markdown level1 summary"><p>获取异常描述。</p>
-<p> <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。 </p>
+  <a id="NetowlsStudio_Sdk_Extensions_Data_PostgreSql_Configuration_ISdkIntegrationInterfaceExtensions_UseJsonNetAsPostgreSqlStorage_" data-uid="NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_PostgreSql_Configuration_ISdkIntegrationInterfaceExtensions_UseJsonNetAsPostgreSqlStorage_NetowlsStudio_Sdk_ISdkIntegrationInterface_Newtonsoft_Json_JsonSerializerSettings_" data-uid="NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage(NetowlsStudio.Sdk.ISdkIntegrationInterface,Newtonsoft.Json.JsonSerializerSettings)">UseJsonNetAsPostgreSqlStorage(ISdkIntegrationInterface, JsonSerializerSettings)</h4>
+  <div class="markdown level1 summary"><p>使用 Newtonsoft.Json 座位 PostgreSQL Json 数据的存储。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T GetDescriptor&lt;T&gt;(this Exception error, string scenes, Func&lt;Exception, string, T&gt; func = null)
-
-    where T : class, IExceptionDescriptor</code></pre>
+    <pre><code class="lang-csharp hljs">public static ISdkIntegrationInterface UseJsonNetAsPostgreSqlStorage(this ISdkIntegrationInterface slot, JsonSerializerSettings settings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -194,21 +184,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">error</span></td>
-        <td><p>运行时异常。</p>
+        <td><a class="xref" href="NetowlsStudio.Sdk.ISdkIntegrationInterface.html">ISdkIntegrationInterface</a></td>
+        <td><span class="parametername">slot</span></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.ISdkIntegrationInterface.html">ISdkIntegrationInterface</a> 类型接口的对象实例。</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">scenes</span></td>
-        <td><p>引发异常时的场景描述信息。</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Exception</span>, <span class="xref">System.String</span>, T&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td><p>构建 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+        <td><span class="xref">Newtonsoft.Json.JsonSerializerSettings</span></td>
+        <td><span class="parametername">settings</span></td>
+        <td><p><span class="xref">Newtonsoft.Json.JsonSerializerSettings</span> 类型的对象实例。</p>
 </td>
       </tr>
     </tbody>
@@ -223,31 +207,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+        <td><a class="xref" href="NetowlsStudio.Sdk.ISdkIntegrationInterface.html">ISdkIntegrationInterface</a></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.ISdkIntegrationInterface.html">ISdkIntegrationInterface</a> 类型接口的对象实例。</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.IExceptionDescriptor.html">IExceptionDescriptor</a> 类型接口的对象实例。</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="NetowlsStudio_Sdk_ExceptionExtensions_GetDescriptor__1_System_Exception_System_String_System_Func_System_Exception_System_String___0___seealso">See Also</h5>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_PostgreSql_Configuration_ISdkIntegrationInterfaceExtensions_UseJsonNetAsPostgreSqlStorage_NetowlsStudio_Sdk_ISdkIntegrationInterface_Newtonsoft_Json_JsonSerializerSettings__seealso">See Also</h5>
   <div class="seealso">
-      <div><a class="xref" href="NetowlsStudio.Sdk.IExceptionDescriptor.html">IExceptionDescriptor</a></div>
+      <div><a class="xref" href="NetowlsStudio.Sdk.ISdkIntegrationInterface.html">ISdkIntegrationInterface</a></div>
+      <div><span class="xref">Newtonsoft.Json.JsonSerializerSettings</span></div>
   </div>
 </article>
           </div>

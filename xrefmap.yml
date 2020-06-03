@@ -208,6 +208,60 @@ references:
   isSpec: "True"
   fullName: NetowlsStudio.Sdk.Data.DataTableExtensions.HasRows
   nameWithType: DataTableExtensions.HasRows
+- uid: NetowlsStudio.Sdk.Data.DbProviderNameDefaults
+  name: DbProviderNameDefaults
+  href: api/NetowlsStudio.Sdk.Data.DbProviderNameDefaults.html
+  commentId: T:NetowlsStudio.Sdk.Data.DbProviderNameDefaults
+  fullName: NetowlsStudio.Sdk.Data.DbProviderNameDefaults
+  nameWithType: DbProviderNameDefaults
+- uid: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.DefaultDbProvider
+  name: DefaultDbProvider
+  href: api/NetowlsStudio.Sdk.Data.DbProviderNameDefaults.html#NetowlsStudio_Sdk_Data_DbProviderNameDefaults_DefaultDbProvider
+  commentId: F:NetowlsStudio.Sdk.Data.DbProviderNameDefaults.DefaultDbProvider
+  fullName: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.DefaultDbProvider
+  nameWithType: DbProviderNameDefaults.DefaultDbProvider
+- uid: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.Firebird
+  name: Firebird
+  href: api/NetowlsStudio.Sdk.Data.DbProviderNameDefaults.html#NetowlsStudio_Sdk_Data_DbProviderNameDefaults_Firebird
+  commentId: F:NetowlsStudio.Sdk.Data.DbProviderNameDefaults.Firebird
+  fullName: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.Firebird
+  nameWithType: DbProviderNameDefaults.Firebird
+- uid: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.IBMDB2
+  name: IBMDB2
+  href: api/NetowlsStudio.Sdk.Data.DbProviderNameDefaults.html#NetowlsStudio_Sdk_Data_DbProviderNameDefaults_IBMDB2
+  commentId: F:NetowlsStudio.Sdk.Data.DbProviderNameDefaults.IBMDB2
+  fullName: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.IBMDB2
+  nameWithType: DbProviderNameDefaults.IBMDB2
+- uid: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.MySQL
+  name: MySQL
+  href: api/NetowlsStudio.Sdk.Data.DbProviderNameDefaults.html#NetowlsStudio_Sdk_Data_DbProviderNameDefaults_MySQL
+  commentId: F:NetowlsStudio.Sdk.Data.DbProviderNameDefaults.MySQL
+  fullName: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.MySQL
+  nameWithType: DbProviderNameDefaults.MySQL
+- uid: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.OracleDatabase
+  name: OracleDatabase
+  href: api/NetowlsStudio.Sdk.Data.DbProviderNameDefaults.html#NetowlsStudio_Sdk_Data_DbProviderNameDefaults_OracleDatabase
+  commentId: F:NetowlsStudio.Sdk.Data.DbProviderNameDefaults.OracleDatabase
+  fullName: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.OracleDatabase
+  nameWithType: DbProviderNameDefaults.OracleDatabase
+- uid: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.PostgreSQL
+  name: PostgreSQL
+  href: api/NetowlsStudio.Sdk.Data.DbProviderNameDefaults.html#NetowlsStudio_Sdk_Data_DbProviderNameDefaults_PostgreSQL
+  commentId: F:NetowlsStudio.Sdk.Data.DbProviderNameDefaults.PostgreSQL
+  fullName: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.PostgreSQL
+  nameWithType: DbProviderNameDefaults.PostgreSQL
+- uid: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.SQLite
+  name: SQLite
+  href: api/NetowlsStudio.Sdk.Data.DbProviderNameDefaults.html#NetowlsStudio_Sdk_Data_DbProviderNameDefaults_SQLite
+  commentId: F:NetowlsStudio.Sdk.Data.DbProviderNameDefaults.SQLite
+  fullName: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.SQLite
+  nameWithType: DbProviderNameDefaults.SQLite
+- uid: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.SQLServer
+  name: SQLServer
+  href: api/NetowlsStudio.Sdk.Data.DbProviderNameDefaults.html#NetowlsStudio_Sdk_Data_DbProviderNameDefaults_SQLServer
+  commentId: F:NetowlsStudio.Sdk.Data.DbProviderNameDefaults.SQLServer
+  fullName: NetowlsStudio.Sdk.Data.DbProviderNameDefaults.SQLServer
+  nameWithType: DbProviderNameDefaults.SQLServer
 - uid: NetowlsStudio.Sdk.DateTimeFormatDefaults
   name: DateTimeFormatDefaults
   href: api/NetowlsStudio.Sdk.DateTimeFormatDefaults.html
@@ -909,6 +963,1010 @@ references:
   commentId: N:NetowlsStudio.Sdk.Extensions.Data
   fullName: NetowlsStudio.Sdk.Extensions.Data
   nameWithType: NetowlsStudio.Sdk.Extensions.Data
+- uid: NetowlsStudio.Sdk.Extensions.Data.Annotations
+  name: NetowlsStudio.Sdk.Extensions.Data.Annotations
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Annotations.html
+  commentId: N:NetowlsStudio.Sdk.Extensions.Data.Annotations
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Annotations
+  nameWithType: NetowlsStudio.Sdk.Extensions.Data.Annotations
+- uid: NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute
+  name: DbProviderNameAttribute
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute
+  nameWithType: DbProviderNameAttribute
+- uid: NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.#ctor
+  name: DbProviderNameAttribute()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.html#NetowlsStudio_Sdk_Extensions_Data_Annotations_DbProviderNameAttribute__ctor
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.#ctor
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.DbProviderNameAttribute()
+  nameWithType: DbProviderNameAttribute.DbProviderNameAttribute()
+- uid: NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.#ctor(System.String)
+  name: DbProviderNameAttribute(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.html#NetowlsStudio_Sdk_Extensions_Data_Annotations_DbProviderNameAttribute__ctor_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.#ctor(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.DbProviderNameAttribute(System.String)
+  nameWithType: DbProviderNameAttribute.DbProviderNameAttribute(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.#ctor*
+  name: DbProviderNameAttribute
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.html#NetowlsStudio_Sdk_Extensions_Data_Annotations_DbProviderNameAttribute__ctor_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.#ctor
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.DbProviderNameAttribute
+  nameWithType: DbProviderNameAttribute.DbProviderNameAttribute
+- uid: NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.ProviderName
+  name: ProviderName
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.html#NetowlsStudio_Sdk_Extensions_Data_Annotations_DbProviderNameAttribute_ProviderName
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.ProviderName
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.ProviderName
+  nameWithType: DbProviderNameAttribute.ProviderName
+- uid: NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.ProviderName*
+  name: ProviderName
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.html#NetowlsStudio_Sdk_Extensions_Data_Annotations_DbProviderNameAttribute_ProviderName_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.ProviderName
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Annotations.DbProviderNameAttribute.ProviderName
+  nameWithType: DbProviderNameAttribute.ProviderName
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common
+  name: NetowlsStudio.Sdk.Extensions.Data.Common
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.html
+  commentId: N:NetowlsStudio.Sdk.Extensions.Data.Common
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common
+  nameWithType: NetowlsStudio.Sdk.Extensions.Data.Common
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database
+  name: Database
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.Common.Database
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database
+  nameWithType: Database
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.#ctor(System.String)
+  name: Database(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database__ctor_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.#ctor(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Database(System.String)
+  nameWithType: Database.Database(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.#ctor*
+  name: Database
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database__ctor_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.#ctor
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Database
+  nameWithType: Database.Database
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameter(System.Data.IDbCommand,System.Data.IDbDataParameter)
+  name: AddParameter(IDbCommand, IDbDataParameter)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_AddParameter_System_Data_IDbCommand_System_Data_IDbDataParameter_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameter(System.Data.IDbCommand,System.Data.IDbDataParameter)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameter(System.Data.IDbCommand, System.Data.IDbDataParameter)
+  nameWithType: Database.AddParameter(IDbCommand, IDbDataParameter)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameter*
+  name: AddParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_AddParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameter
+  nameWithType: Database.AddParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameters(System.Data.IDbCommand,System.Data.IDbDataParameter[])
+  name: AddParameters(IDbCommand, IDbDataParameter[])
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_AddParameters_System_Data_IDbCommand_System_Data_IDbDataParameter___
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameters(System.Data.IDbCommand,System.Data.IDbDataParameter[])
+  name.vb: AddParameters(IDbCommand, IDbDataParameter())
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameters(System.Data.IDbCommand, System.Data.IDbDataParameter[])
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameters(System.Data.IDbCommand, System.Data.IDbDataParameter())
+  nameWithType: Database.AddParameters(IDbCommand, IDbDataParameter[])
+  nameWithType.vb: Database.AddParameters(IDbCommand, IDbDataParameter())
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameters*
+  name: AddParameters
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_AddParameters_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameters
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.AddParameters
+  nameWithType: Database.AddParameters
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransaction
+  name: BeginTransaction()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_BeginTransaction
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransaction
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransaction()
+  nameWithType: Database.BeginTransaction()
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransaction(System.Data.IsolationLevel)
+  name: BeginTransaction(IsolationLevel)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_BeginTransaction_System_Data_IsolationLevel_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransaction(System.Data.IsolationLevel)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransaction(System.Data.IsolationLevel)
+  nameWithType: Database.BeginTransaction(IsolationLevel)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransaction*
+  name: BeginTransaction
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_BeginTransaction_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransaction
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransaction
+  nameWithType: Database.BeginTransaction
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransactionAsync
+  name: BeginTransactionAsync()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_BeginTransactionAsync
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransactionAsync
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransactionAsync()
+  nameWithType: Database.BeginTransactionAsync()
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransactionAsync(System.Data.IsolationLevel)
+  name: BeginTransactionAsync(IsolationLevel)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_BeginTransactionAsync_System_Data_IsolationLevel_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransactionAsync(System.Data.IsolationLevel)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransactionAsync(System.Data.IsolationLevel)
+  nameWithType: Database.BeginTransactionAsync(IsolationLevel)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransactionAsync*
+  name: BeginTransactionAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_BeginTransactionAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransactionAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BeginTransactionAsync
+  nameWithType: Database.BeginTransactionAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BuildParameterName(System.String)
+  name: BuildParameterName(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_BuildParameterName_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.BuildParameterName(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BuildParameterName(System.String)
+  nameWithType: Database.BuildParameterName(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BuildParameterName*
+  name: BuildParameterName
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_BuildParameterName_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.BuildParameterName
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.BuildParameterName
+  nameWithType: Database.BuildParameterName
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Close
+  name: Close()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_Close
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.Close
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Close()
+  nameWithType: Database.Close()
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Close*
+  name: Close
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_Close_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.Close
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Close
+  nameWithType: Database.Close
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CloseAsync
+  name: CloseAsync()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CloseAsync
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CloseAsync
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CloseAsync()
+  nameWithType: Database.CloseAsync()
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CloseAsync*
+  name: CloseAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CloseAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CloseAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CloseAsync
+  nameWithType: Database.CloseAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Connection
+  name: Connection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_Connection
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.Common.Database.Connection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Connection
+  nameWithType: Database.Connection
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Connection*
+  name: Connection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_Connection_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.Connection
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Connection
+  nameWithType: Database.Connection
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ConnectionString
+  name: ConnectionString
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ConnectionString
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ConnectionString
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ConnectionString
+  nameWithType: Database.ConnectionString
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ConnectionString*
+  name: ConnectionString
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ConnectionString_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ConnectionString
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ConnectionString
+  nameWithType: Database.ConnectionString
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateCommand(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name: CreateCommand(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateCommand_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateCommand(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name.vb: CreateCommand(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateCommand(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateCommand(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  nameWithType: Database.CreateCommand(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  nameWithType.vb: Database.CreateCommand(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateCommand*
+  name: CreateCommand
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateCommand_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateCommand
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateCommand
+  nameWithType: Database.CreateCommand
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateDbAdapter(System.Data.IDbCommand)
+  name: CreateDbAdapter(IDbCommand)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateDbAdapter_System_Data_IDbCommand_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateDbAdapter(System.Data.IDbCommand)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateDbAdapter(System.Data.IDbCommand)
+  nameWithType: Database.CreateDbAdapter(IDbCommand)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateDbAdapter*
+  name: CreateDbAdapter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateDbAdapter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateDbAdapter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateDbAdapter
+  nameWithType: Database.CreateDbAdapter
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateDbConnectionIfDisposed
+  name: CreateDbConnectionIfDisposed()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateDbConnectionIfDisposed
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateDbConnectionIfDisposed
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateDbConnectionIfDisposed()
+  nameWithType: Database.CreateDbConnectionIfDisposed()
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateDbConnectionIfDisposed*
+  name: CreateDbConnectionIfDisposed
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateDbConnectionIfDisposed_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateDbConnectionIfDisposed
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateDbConnectionIfDisposed
+  nameWithType: Database.CreateDbConnectionIfDisposed
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateInParameter(System.String,System.Object,System.Data.DbType,System.Nullable{System.Int32})
+  name: CreateInParameter(String, Object, DbType, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateInParameter_System_String_System_Object_System_Data_DbType_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateInParameter(System.String,System.Object,System.Data.DbType,System.Nullable{System.Int32})
+  name.vb: CreateInParameter(String, Object, DbType, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateInParameter(System.String, System.Object, System.Data.DbType, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateInParameter(System.String, System.Object, System.Data.DbType, System.Nullable(Of System.Int32))
+  nameWithType: Database.CreateInParameter(String, Object, DbType, Nullable<Int32>)
+  nameWithType.vb: Database.CreateInParameter(String, Object, DbType, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateInParameter*
+  name: CreateInParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateInParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateInParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateInParameter
+  nameWithType: Database.CreateInParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateOutParameter(System.String,System.Object,System.Data.DbType,System.Nullable{System.Int32})
+  name: CreateOutParameter(String, Object, DbType, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateOutParameter_System_String_System_Object_System_Data_DbType_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateOutParameter(System.String,System.Object,System.Data.DbType,System.Nullable{System.Int32})
+  name.vb: CreateOutParameter(String, Object, DbType, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateOutParameter(System.String, System.Object, System.Data.DbType, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateOutParameter(System.String, System.Object, System.Data.DbType, System.Nullable(Of System.Int32))
+  nameWithType: Database.CreateOutParameter(String, Object, DbType, Nullable<Int32>)
+  nameWithType.vb: Database.CreateOutParameter(String, Object, DbType, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateOutParameter*
+  name: CreateOutParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateOutParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateOutParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateOutParameter
+  nameWithType: Database.CreateOutParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateParameter(System.String,System.Object,System.Data.ParameterDirection,System.Data.DbType,System.Nullable{System.Int32})
+  name: CreateParameter(String, Object, ParameterDirection, DbType, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateParameter_System_String_System_Object_System_Data_ParameterDirection_System_Data_DbType_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateParameter(System.String,System.Object,System.Data.ParameterDirection,System.Data.DbType,System.Nullable{System.Int32})
+  name.vb: CreateParameter(String, Object, ParameterDirection, DbType, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateParameter(System.String, System.Object, System.Data.ParameterDirection, System.Data.DbType, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateParameter(System.String, System.Object, System.Data.ParameterDirection, System.Data.DbType, System.Nullable(Of System.Int32))
+  nameWithType: Database.CreateParameter(String, Object, ParameterDirection, DbType, Nullable<Int32>)
+  nameWithType.vb: Database.CreateParameter(String, Object, ParameterDirection, DbType, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateParameter*
+  name: CreateParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateParameter
+  nameWithType: Database.CreateParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateStoredProcedure(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.IDbTransaction,System.Int32)
+  name: CreateStoredProcedure(String, IEnumerable<IDbDataParameter>, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateStoredProcedure_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateStoredProcedure(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.IDbTransaction,System.Int32)
+  name.vb: CreateStoredProcedure(String, IEnumerable(Of IDbDataParameter), IDbTransaction, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateStoredProcedure(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.IDbTransaction, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateStoredProcedure(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.IDbTransaction, System.Int32)
+  nameWithType: Database.CreateStoredProcedure(String, IEnumerable<IDbDataParameter>, IDbTransaction, Int32)
+  nameWithType.vb: Database.CreateStoredProcedure(String, IEnumerable(Of IDbDataParameter), IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateStoredProcedure*
+  name: CreateStoredProcedure
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_CreateStoredProcedure_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateStoredProcedure
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.CreateStoredProcedure
+  nameWithType: Database.CreateStoredProcedure
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Dispose
+  name: Dispose()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_Dispose
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.Dispose
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Dispose()
+  nameWithType: Database.Dispose()
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_Dispose_System_Boolean_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.Dispose(System.Boolean)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Dispose(System.Boolean)
+  nameWithType: Database.Dispose(Boolean)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Dispose*
+  name: Dispose
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_Dispose_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.Dispose
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Dispose
+  nameWithType: Database.Dispose
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.Data.IDbCommand)
+  name: ExecuteDataReader(IDbCommand)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataReader_System_Data_IDbCommand_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.Data.IDbCommand)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.Data.IDbCommand)
+  nameWithType: Database.ExecuteDataReader(IDbCommand)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.Data.IDbCommand,System.Data.CommandBehavior)
+  name: ExecuteDataReader(IDbCommand, CommandBehavior)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataReader_System_Data_IDbCommand_System_Data_CommandBehavior_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.Data.IDbCommand,System.Data.CommandBehavior)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.Data.IDbCommand, System.Data.CommandBehavior)
+  nameWithType: Database.ExecuteDataReader(IDbCommand, CommandBehavior)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandBehavior,System.Data.CommandType,System.Int32)
+  name: ExecuteDataReader(String, IEnumerable<IDbDataParameter>, CommandBehavior, CommandType, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataReader_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandBehavior_System_Data_CommandType_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandBehavior,System.Data.CommandType,System.Int32)
+  name.vb: ExecuteDataReader(String, IEnumerable(Of IDbDataParameter), CommandBehavior, CommandType, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandBehavior, System.Data.CommandType, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandBehavior, System.Data.CommandType, System.Int32)
+  nameWithType: Database.ExecuteDataReader(String, IEnumerable<IDbDataParameter>, CommandBehavior, CommandType, Int32)
+  nameWithType.vb: Database.ExecuteDataReader(String, IEnumerable(Of IDbDataParameter), CommandBehavior, CommandType, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32)
+  name: ExecuteDataReader(String, IEnumerable<IDbDataParameter>, CommandType, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataReader_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32)
+  name.vb: ExecuteDataReader(String, IEnumerable(Of IDbDataParameter), CommandType, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Int32)
+  nameWithType: Database.ExecuteDataReader(String, IEnumerable<IDbDataParameter>, CommandType, Int32)
+  nameWithType.vb: Database.ExecuteDataReader(String, IEnumerable(Of IDbDataParameter), CommandType, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader*
+  name: ExecuteDataReader
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataReader_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReader
+  nameWithType: Database.ExecuteDataReader
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.Data.IDbCommand)
+  name: ExecuteDataReaderAsync(IDbCommand)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataReaderAsync_System_Data_IDbCommand_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.Data.IDbCommand)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.Data.IDbCommand)
+  nameWithType: Database.ExecuteDataReaderAsync(IDbCommand)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.Data.IDbCommand,System.Data.CommandBehavior)
+  name: ExecuteDataReaderAsync(IDbCommand, CommandBehavior)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataReaderAsync_System_Data_IDbCommand_System_Data_CommandBehavior_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.Data.IDbCommand,System.Data.CommandBehavior)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.Data.IDbCommand, System.Data.CommandBehavior)
+  nameWithType: Database.ExecuteDataReaderAsync(IDbCommand, CommandBehavior)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandBehavior,System.Data.CommandType,System.Int32)
+  name: ExecuteDataReaderAsync(String, IEnumerable<IDbDataParameter>, CommandBehavior, CommandType, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataReaderAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandBehavior_System_Data_CommandType_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandBehavior,System.Data.CommandType,System.Int32)
+  name.vb: ExecuteDataReaderAsync(String, IEnumerable(Of IDbDataParameter), CommandBehavior, CommandType, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandBehavior, System.Data.CommandType, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandBehavior, System.Data.CommandType, System.Int32)
+  nameWithType: Database.ExecuteDataReaderAsync(String, IEnumerable<IDbDataParameter>, CommandBehavior, CommandType, Int32)
+  nameWithType.vb: Database.ExecuteDataReaderAsync(String, IEnumerable(Of IDbDataParameter), CommandBehavior, CommandType, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32)
+  name: ExecuteDataReaderAsync(String, IEnumerable<IDbDataParameter>, CommandType, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataReaderAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32)
+  name.vb: ExecuteDataReaderAsync(String, IEnumerable(Of IDbDataParameter), CommandType, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Int32)
+  nameWithType: Database.ExecuteDataReaderAsync(String, IEnumerable<IDbDataParameter>, CommandType, Int32)
+  nameWithType.vb: Database.ExecuteDataReaderAsync(String, IEnumerable(Of IDbDataParameter), CommandType, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync*
+  name: ExecuteDataReaderAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataReaderAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataReaderAsync
+  nameWithType: Database.ExecuteDataReaderAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSet(System.Data.IDbCommand,System.String)
+  name: ExecuteDataSet(IDbCommand, String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataSet_System_Data_IDbCommand_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSet(System.Data.IDbCommand,System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSet(System.Data.IDbCommand, System.String)
+  nameWithType: Database.ExecuteDataSet(IDbCommand, String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSet(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32,System.String)
+  name: ExecuteDataSet(String, IEnumerable<IDbDataParameter>, CommandType, Int32, String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataSet_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSet(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32,System.String)
+  name.vb: ExecuteDataSet(String, IEnumerable(Of IDbDataParameter), CommandType, Int32, String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSet(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Int32, System.String)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSet(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Int32, System.String)
+  nameWithType: Database.ExecuteDataSet(String, IEnumerable<IDbDataParameter>, CommandType, Int32, String)
+  nameWithType.vb: Database.ExecuteDataSet(String, IEnumerable(Of IDbDataParameter), CommandType, Int32, String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSet*
+  name: ExecuteDataSet
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataSet_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSet
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSet
+  nameWithType: Database.ExecuteDataSet
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSetAsync(System.Data.IDbCommand,System.String)
+  name: ExecuteDataSetAsync(IDbCommand, String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataSetAsync_System_Data_IDbCommand_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSetAsync(System.Data.IDbCommand,System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSetAsync(System.Data.IDbCommand, System.String)
+  nameWithType: Database.ExecuteDataSetAsync(IDbCommand, String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSetAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32,System.String)
+  name: ExecuteDataSetAsync(String, IEnumerable<IDbDataParameter>, CommandType, Int32, String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataSetAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSetAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32,System.String)
+  name.vb: ExecuteDataSetAsync(String, IEnumerable(Of IDbDataParameter), CommandType, Int32, String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSetAsync(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Int32, System.String)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSetAsync(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Int32, System.String)
+  nameWithType: Database.ExecuteDataSetAsync(String, IEnumerable<IDbDataParameter>, CommandType, Int32, String)
+  nameWithType.vb: Database.ExecuteDataSetAsync(String, IEnumerable(Of IDbDataParameter), CommandType, Int32, String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSetAsync*
+  name: ExecuteDataSetAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataSetAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSetAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataSetAsync
+  nameWithType: Database.ExecuteDataSetAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTable(System.Data.IDbCommand,System.String)
+  name: ExecuteDataTable(IDbCommand, String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataTable_System_Data_IDbCommand_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTable(System.Data.IDbCommand,System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTable(System.Data.IDbCommand, System.String)
+  nameWithType: Database.ExecuteDataTable(IDbCommand, String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTable(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32,System.String)
+  name: ExecuteDataTable(String, IEnumerable<IDbDataParameter>, CommandType, Int32, String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataTable_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTable(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32,System.String)
+  name.vb: ExecuteDataTable(String, IEnumerable(Of IDbDataParameter), CommandType, Int32, String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTable(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Int32, System.String)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTable(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Int32, System.String)
+  nameWithType: Database.ExecuteDataTable(String, IEnumerable<IDbDataParameter>, CommandType, Int32, String)
+  nameWithType.vb: Database.ExecuteDataTable(String, IEnumerable(Of IDbDataParameter), CommandType, Int32, String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTable*
+  name: ExecuteDataTable
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataTable_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTable
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTable
+  nameWithType: Database.ExecuteDataTable
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTableAsync(System.Data.IDbCommand,System.String)
+  name: ExecuteDataTableAsync(IDbCommand, String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataTableAsync_System_Data_IDbCommand_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTableAsync(System.Data.IDbCommand,System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTableAsync(System.Data.IDbCommand, System.String)
+  nameWithType: Database.ExecuteDataTableAsync(IDbCommand, String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTableAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32,System.String)
+  name: ExecuteDataTableAsync(String, IEnumerable<IDbDataParameter>, CommandType, Int32, String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataTableAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Int32_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTableAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Int32,System.String)
+  name.vb: ExecuteDataTableAsync(String, IEnumerable(Of IDbDataParameter), CommandType, Int32, String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTableAsync(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Int32, System.String)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTableAsync(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Int32, System.String)
+  nameWithType: Database.ExecuteDataTableAsync(String, IEnumerable<IDbDataParameter>, CommandType, Int32, String)
+  nameWithType.vb: Database.ExecuteDataTableAsync(String, IEnumerable(Of IDbDataParameter), CommandType, Int32, String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTableAsync*
+  name: ExecuteDataTableAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteDataTableAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTableAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteDataTableAsync
+  nameWithType: Database.ExecuteDataTableAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQuery(System.Data.IDbCommand)
+  name: ExecuteNonQuery(IDbCommand)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteNonQuery_System_Data_IDbCommand_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQuery(System.Data.IDbCommand)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQuery(System.Data.IDbCommand)
+  nameWithType: Database.ExecuteNonQuery(IDbCommand)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQuery(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name: ExecuteNonQuery(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteNonQuery_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQuery(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name.vb: ExecuteNonQuery(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQuery(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQuery(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  nameWithType: Database.ExecuteNonQuery(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  nameWithType.vb: Database.ExecuteNonQuery(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQuery*
+  name: ExecuteNonQuery
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteNonQuery_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQuery
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQuery
+  nameWithType: Database.ExecuteNonQuery
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQueryAsync(System.Data.IDbCommand)
+  name: ExecuteNonQueryAsync(IDbCommand)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteNonQueryAsync_System_Data_IDbCommand_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQueryAsync(System.Data.IDbCommand)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQueryAsync(System.Data.IDbCommand)
+  nameWithType: Database.ExecuteNonQueryAsync(IDbCommand)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQueryAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name: ExecuteNonQueryAsync(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteNonQueryAsync_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQueryAsync(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name.vb: ExecuteNonQueryAsync(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQueryAsync(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQueryAsync(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  nameWithType: Database.ExecuteNonQueryAsync(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  nameWithType.vb: Database.ExecuteNonQueryAsync(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQueryAsync*
+  name: ExecuteNonQueryAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteNonQueryAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQueryAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteNonQueryAsync
+  nameWithType: Database.ExecuteNonQueryAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalar*
+  name: ExecuteScalar
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteScalar_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalar
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalar
+  nameWithType: Database.ExecuteScalar
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalar``1(System.Data.IDbCommand)
+  name: ExecuteScalar<T>(IDbCommand)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteScalar__1_System_Data_IDbCommand_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalar``1(System.Data.IDbCommand)
+  name.vb: ExecuteScalar(Of T)(IDbCommand)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalar<T>(System.Data.IDbCommand)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalar(Of T)(System.Data.IDbCommand)
+  nameWithType: Database.ExecuteScalar<T>(IDbCommand)
+  nameWithType.vb: Database.ExecuteScalar(Of T)(IDbCommand)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalar``1(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name: ExecuteScalar<T>(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteScalar__1_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalar``1(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name.vb: ExecuteScalar(Of T)(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalar<T>(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalar(Of T)(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  nameWithType: Database.ExecuteScalar<T>(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  nameWithType.vb: Database.ExecuteScalar(Of T)(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalarAsync*
+  name: ExecuteScalarAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteScalarAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalarAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalarAsync
+  nameWithType: Database.ExecuteScalarAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalarAsync``1(System.Data.IDbCommand)
+  name: ExecuteScalarAsync<T>(IDbCommand)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteScalarAsync__1_System_Data_IDbCommand_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalarAsync``1(System.Data.IDbCommand)
+  name.vb: ExecuteScalarAsync(Of T)(IDbCommand)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalarAsync<T>(System.Data.IDbCommand)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalarAsync(Of T)(System.Data.IDbCommand)
+  nameWithType: Database.ExecuteScalarAsync<T>(IDbCommand)
+  nameWithType.vb: Database.ExecuteScalarAsync(Of T)(IDbCommand)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalarAsync``1(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name: ExecuteScalarAsync<T>(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_ExecuteScalarAsync__1_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalarAsync``1(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name.vb: ExecuteScalarAsync(Of T)(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalarAsync<T>(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.Database.ExecuteScalarAsync(Of T)(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  nameWithType: Database.ExecuteScalarAsync<T>(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  nameWithType.vb: Database.ExecuteScalarAsync(Of T)(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.IsOpened
+  name: IsOpened
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_IsOpened
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.Common.Database.IsOpened
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.IsOpened
+  nameWithType: Database.IsOpened
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.IsOpened*
+  name: IsOpened
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_IsOpened_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.IsOpened
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.IsOpened
+  nameWithType: Database.IsOpened
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.NewDbConnection
+  name: NewDbConnection()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_NewDbConnection
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.NewDbConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.NewDbConnection()
+  nameWithType: Database.NewDbConnection()
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.NewDbConnection*
+  name: NewDbConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_NewDbConnection_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.NewDbConnection
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.NewDbConnection
+  nameWithType: Database.NewDbConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Open
+  name: Open()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_Open
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.Open
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Open()
+  nameWithType: Database.Open()
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Open*
+  name: Open
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_Open_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.Open
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.Open
+  nameWithType: Database.Open
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.OpenAsync
+  name: OpenAsync()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_OpenAsync
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.OpenAsync
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.OpenAsync()
+  nameWithType: Database.OpenAsync()
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.OpenAsync*
+  name: OpenAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_OpenAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.OpenAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.OpenAsync
+  nameWithType: Database.OpenAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.SetDisposedState(System.Boolean)
+  name: SetDisposedState(Boolean)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_SetDisposedState_System_Boolean_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.SetDisposedState(System.Boolean)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.SetDisposedState(System.Boolean)
+  nameWithType: Database.SetDisposedState(Boolean)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.SetDisposedState*
+  name: SetDisposedState
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_SetDisposedState_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.SetDisposedState
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.SetDisposedState
+  nameWithType: Database.SetDisposedState
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.SetOpenedState(System.Boolean)
+  name: SetOpenedState(Boolean)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_SetOpenedState_System_Boolean_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.Database.SetOpenedState(System.Boolean)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.SetOpenedState(System.Boolean)
+  nameWithType: Database.SetOpenedState(Boolean)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.Database.SetOpenedState*
+  name: SetOpenedState
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.Database.html#NetowlsStudio_Sdk_Extensions_Data_Common_Database_SetOpenedState_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.Database.SetOpenedState
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.Database.SetOpenedState
+  nameWithType: Database.SetOpenedState
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory
+  name: DatabaseFactory
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory
+  nameWithType: DatabaseFactory
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.Create(System.String)
+  name: Create(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseFactory_Create_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.Create(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.Create(System.String)
+  nameWithType: DatabaseFactory.Create(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.Create*
+  name: Create
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseFactory_Create_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.Create
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.Create
+  nameWithType: DatabaseFactory.Create
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.InternalCreate(System.String)
+  name: InternalCreate(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseFactory_InternalCreate_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.InternalCreate(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.InternalCreate(System.String)
+  nameWithType: DatabaseFactory.InternalCreate(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.InternalCreate*
+  name: InternalCreate
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseFactory_InternalCreate_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.InternalCreate
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseFactory.InternalCreate
+  nameWithType: DatabaseFactory.InternalCreate
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider
+  name: DatabaseServiceProvider
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider
+  nameWithType: DatabaseServiceProvider
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.#ctor(NetowlsStudio.Sdk.Extensions.Configuration.IConfigurationService{NetowlsStudio.Sdk.Extensions.Configuration.ConnectionStringSettings})
+  name: DatabaseServiceProvider(IConfigurationService<ConnectionStringSettings>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseServiceProvider__ctor_NetowlsStudio_Sdk_Extensions_Configuration_IConfigurationService_NetowlsStudio_Sdk_Extensions_Configuration_ConnectionStringSettings__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.#ctor(NetowlsStudio.Sdk.Extensions.Configuration.IConfigurationService{NetowlsStudio.Sdk.Extensions.Configuration.ConnectionStringSettings})
+  name.vb: DatabaseServiceProvider(IConfigurationService(Of ConnectionStringSettings))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.DatabaseServiceProvider(NetowlsStudio.Sdk.Extensions.Configuration.IConfigurationService<NetowlsStudio.Sdk.Extensions.Configuration.ConnectionStringSettings>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.DatabaseServiceProvider(NetowlsStudio.Sdk.Extensions.Configuration.IConfigurationService(Of NetowlsStudio.Sdk.Extensions.Configuration.ConnectionStringSettings))
+  nameWithType: DatabaseServiceProvider.DatabaseServiceProvider(IConfigurationService<ConnectionStringSettings>)
+  nameWithType.vb: DatabaseServiceProvider.DatabaseServiceProvider(IConfigurationService(Of ConnectionStringSettings))
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.#ctor*
+  name: DatabaseServiceProvider
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseServiceProvider__ctor_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.#ctor
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.DatabaseServiceProvider
+  nameWithType: DatabaseServiceProvider.DatabaseServiceProvider
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.ConfigurationService
+  name: ConfigurationService
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseServiceProvider_ConfigurationService
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.ConfigurationService
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.ConfigurationService
+  nameWithType: DatabaseServiceProvider.ConfigurationService
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.ConfigurationService*
+  name: ConfigurationService
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseServiceProvider_ConfigurationService_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.ConfigurationService
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.ConfigurationService
+  nameWithType: DatabaseServiceProvider.ConfigurationService
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.CreateDatabase(System.String)
+  name: CreateDatabase(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseServiceProvider_CreateDatabase_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.CreateDatabase(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.CreateDatabase(System.String)
+  nameWithType: DatabaseServiceProvider.CreateDatabase(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.CreateDatabase*
+  name: CreateDatabase
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseServiceProvider_CreateDatabase_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.CreateDatabase
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.CreateDatabase
+  nameWithType: DatabaseServiceProvider.CreateDatabase
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.DbFactories
+  name: DbFactories
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseServiceProvider_DbFactories
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.DbFactories
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.DbFactories
+  nameWithType: DatabaseServiceProvider.DbFactories
+- uid: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.DbFactories*
+  name: DbFactories
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.html#NetowlsStudio_Sdk_Extensions_Data_Common_DatabaseServiceProvider_DbFactories_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.DbFactories
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Common.DatabaseServiceProvider.DbFactories
+  nameWithType: DatabaseServiceProvider.DbFactories
+- uid: NetowlsStudio.Sdk.Extensions.Data.DatabaseFactoryDictionary
+  name: DatabaseFactoryDictionary
+  href: api/NetowlsStudio.Sdk.Extensions.Data.DatabaseFactoryDictionary.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.DatabaseFactoryDictionary
+  fullName: NetowlsStudio.Sdk.Extensions.Data.DatabaseFactoryDictionary
+  nameWithType: DatabaseFactoryDictionary
+- uid: NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider
+  name: DbServiceProvider
+  href: api/NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider
+  fullName: NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider
+  nameWithType: DbServiceProvider
+- uid: NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.#ctor(NetowlsStudio.Sdk.Extensions.Configuration.IConfigurationService{NetowlsStudio.Sdk.Extensions.Configuration.ConnectionStringSettings})
+  name: DbServiceProvider(IConfigurationService<ConnectionStringSettings>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.html#NetowlsStudio_Sdk_Extensions_Data_DbServiceProvider__ctor_NetowlsStudio_Sdk_Extensions_Configuration_IConfigurationService_NetowlsStudio_Sdk_Extensions_Configuration_ConnectionStringSettings__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.#ctor(NetowlsStudio.Sdk.Extensions.Configuration.IConfigurationService{NetowlsStudio.Sdk.Extensions.Configuration.ConnectionStringSettings})
+  name.vb: DbServiceProvider(IConfigurationService(Of ConnectionStringSettings))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.DbServiceProvider(NetowlsStudio.Sdk.Extensions.Configuration.IConfigurationService<NetowlsStudio.Sdk.Extensions.Configuration.ConnectionStringSettings>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.DbServiceProvider(NetowlsStudio.Sdk.Extensions.Configuration.IConfigurationService(Of NetowlsStudio.Sdk.Extensions.Configuration.ConnectionStringSettings))
+  nameWithType: DbServiceProvider.DbServiceProvider(IConfigurationService<ConnectionStringSettings>)
+  nameWithType.vb: DbServiceProvider.DbServiceProvider(IConfigurationService(Of ConnectionStringSettings))
+- uid: NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.#ctor*
+  name: DbServiceProvider
+  href: api/NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.html#NetowlsStudio_Sdk_Extensions_Data_DbServiceProvider__ctor_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.#ctor
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.DbServiceProvider
+  nameWithType: DbServiceProvider.DbServiceProvider
+- uid: NetowlsStudio.Sdk.Extensions.Data.DependencyInjection
+  name: NetowlsStudio.Sdk.Extensions.Data.DependencyInjection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.html
+  commentId: N:NetowlsStudio.Sdk.Extensions.Data.DependencyInjection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.DependencyInjection
+  nameWithType: NetowlsStudio.Sdk.Extensions.Data.DependencyInjection
+- uid: NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions
+  name: IServiceCollectionExtensions
+  href: api/NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions
+  fullName: NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions
+  nameWithType: IServiceCollectionExtensions
+- uid: NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions.AddNativeAdoNetServiceProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddNativeAdoNetServiceProvider(IServiceCollection)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions.html#NetowlsStudio_Sdk_Extensions_Data_DependencyInjection_IServiceCollectionExtensions_AddNativeAdoNetServiceProvider_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions.AddNativeAdoNetServiceProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions.AddNativeAdoNetServiceProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: IServiceCollectionExtensions.AddNativeAdoNetServiceProvider(IServiceCollection)
+- uid: NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions.AddNativeAdoNetServiceProvider*
+  name: AddNativeAdoNetServiceProvider
+  href: api/NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions.html#NetowlsStudio_Sdk_Extensions_Data_DependencyInjection_IServiceCollectionExtensions_AddNativeAdoNetServiceProvider_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions.AddNativeAdoNetServiceProvider
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.DependencyInjection.IServiceCollectionExtensions.AddNativeAdoNetServiceProvider
+  nameWithType: IServiceCollectionExtensions.AddNativeAdoNetServiceProvider
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity
+  name: NetowlsStudio.Sdk.Extensions.Data.Entity
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.html
+  commentId: N:NetowlsStudio.Sdk.Extensions.Data.Entity
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity
+  nameWithType: NetowlsStudio.Sdk.Extensions.Data.Entity
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions
+  name: IDatabaseExtensions
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions
+  nameWithType: IDatabaseExtensions
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQuery(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Int32)
+  name: MultipleQuery(IDatabase, String, Object, CommandType, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_MultipleQuery_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQuery(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQuery(NetowlsStudio.Sdk.Extensions.Data.IDatabase, System.String, System.Object, System.Data.CommandType, System.Int32)
+  nameWithType: IDatabaseExtensions.MultipleQuery(IDatabase, String, Object, CommandType, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQuery*
+  name: MultipleQuery
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_MultipleQuery_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQuery
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQuery
+  nameWithType: IDatabaseExtensions.MultipleQuery
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQueryAsync(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Int32)
+  name: MultipleQueryAsync(IDatabase, String, Object, CommandType, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_MultipleQueryAsync_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQueryAsync(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQueryAsync(NetowlsStudio.Sdk.Extensions.Data.IDatabase, System.String, System.Object, System.Data.CommandType, System.Int32)
+  nameWithType: IDatabaseExtensions.MultipleQueryAsync(IDatabase, String, Object, CommandType, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQueryAsync*
+  name: MultipleQueryAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_MultipleQueryAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQueryAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.MultipleQueryAsync
+  nameWithType: IDatabaseExtensions.MultipleQueryAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Query*
+  name: Query
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Query_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Query
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Query
+  nameWithType: IDatabaseExtensions.Query
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Query``1(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Int32)
+  name: Query<TRow>(IDatabase, String, Object, CommandType, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Query__1_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Query``1(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Int32)
+  name.vb: Query(Of TRow)(IDatabase, String, Object, CommandType, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Query<TRow>(NetowlsStudio.Sdk.Extensions.Data.IDatabase, System.String, System.Object, System.Data.CommandType, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Query(Of TRow)(NetowlsStudio.Sdk.Extensions.Data.IDatabase, System.String, System.Object, System.Data.CommandType, System.Int32)
+  nameWithType: IDatabaseExtensions.Query<TRow>(IDatabase, String, Object, CommandType, Int32)
+  nameWithType.vb: IDatabaseExtensions.Query(Of TRow)(IDatabase, String, Object, CommandType, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.QueryAsync*
+  name: QueryAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_QueryAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.QueryAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.QueryAsync
+  nameWithType: IDatabaseExtensions.QueryAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.QueryAsync``1(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Int32)
+  name: QueryAsync<TRow>(IDatabase, String, Object, CommandType, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_QueryAsync__1_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.QueryAsync``1(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Int32)
+  name.vb: QueryAsync(Of TRow)(IDatabase, String, Object, CommandType, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.QueryAsync<TRow>(NetowlsStudio.Sdk.Extensions.Data.IDatabase, System.String, System.Object, System.Data.CommandType, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.QueryAsync(Of TRow)(NetowlsStudio.Sdk.Extensions.Data.IDatabase, System.String, System.Object, System.Data.CommandType, System.Int32)
+  nameWithType: IDatabaseExtensions.QueryAsync<TRow>(IDatabase, String, Object, CommandType, Int32)
+  nameWithType.vb: IDatabaseExtensions.QueryAsync(Of TRow)(IDatabase, String, Object, CommandType, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Scalar*
+  name: Scalar
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Scalar_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Scalar
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Scalar
+  nameWithType: IDatabaseExtensions.Scalar
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Scalar``1(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name: Scalar<T>(IDatabase, String, Object, CommandType, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Scalar__1_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Scalar``1(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name.vb: Scalar(Of T)(IDatabase, String, Object, CommandType, IDbTransaction, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Scalar<T>(NetowlsStudio.Sdk.Extensions.Data.IDatabase, System.String, System.Object, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Scalar(Of T)(NetowlsStudio.Sdk.Extensions.Data.IDatabase, System.String, System.Object, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  nameWithType: IDatabaseExtensions.Scalar<T>(IDatabase, String, Object, CommandType, IDbTransaction, Int32)
+  nameWithType.vb: IDatabaseExtensions.Scalar(Of T)(IDatabase, String, Object, CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.ScalarAsync*
+  name: ScalarAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_ScalarAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.ScalarAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.ScalarAsync
+  nameWithType: IDatabaseExtensions.ScalarAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.ScalarAsync``1(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name: ScalarAsync<T>(IDatabase, String, Object, CommandType, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_ScalarAsync__1_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.ScalarAsync``1(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name.vb: ScalarAsync(Of T)(IDatabase, String, Object, CommandType, IDbTransaction, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.ScalarAsync<T>(NetowlsStudio.Sdk.Extensions.Data.IDatabase, System.String, System.Object, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.ScalarAsync(Of T)(NetowlsStudio.Sdk.Extensions.Data.IDatabase, System.String, System.Object, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  nameWithType: IDatabaseExtensions.ScalarAsync<T>(IDatabase, String, Object, CommandType, IDbTransaction, Int32)
+  nameWithType.vb: IDatabaseExtensions.ScalarAsync(Of T)(IDatabase, String, Object, CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Update(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name: Update(IDatabase, String, Object, CommandType, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Update_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Update(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Update(NetowlsStudio.Sdk.Extensions.Data.IDatabase, System.String, System.Object, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  nameWithType: IDatabaseExtensions.Update(IDatabase, String, Object, CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Update*
+  name: Update
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_Update_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Update
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.Update
+  nameWithType: IDatabaseExtensions.Update
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.UpdateAsync(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name: UpdateAsync(IDatabase, String, Object, CommandType, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_UpdateAsync_NetowlsStudio_Sdk_Extensions_Data_IDatabase_System_String_System_Object_System_Data_CommandType_System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.UpdateAsync(NetowlsStudio.Sdk.Extensions.Data.IDatabase,System.String,System.Object,System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.UpdateAsync(NetowlsStudio.Sdk.Extensions.Data.IDatabase, System.String, System.Object, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  nameWithType: IDatabaseExtensions.UpdateAsync(IDatabase, String, Object, CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.UpdateAsync*
+  name: UpdateAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Entity_IDatabaseExtensions_UpdateAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.UpdateAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Entity.IDatabaseExtensions.UpdateAsync
+  nameWithType: IDatabaseExtensions.UpdateAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.IDatabase
+  name: IDatabase
+  href: api/NetowlsStudio.Sdk.Extensions.Data.IDatabase.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.IDatabase
+  fullName: NetowlsStudio.Sdk.Extensions.Data.IDatabase
+  nameWithType: IDatabase
+- uid: NetowlsStudio.Sdk.Extensions.Data.IDatabase.ConnectionString
+  name: ConnectionString
+  href: api/NetowlsStudio.Sdk.Extensions.Data.IDatabase.html#NetowlsStudio_Sdk_Extensions_Data_IDatabase_ConnectionString
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.IDatabase.ConnectionString
+  fullName: NetowlsStudio.Sdk.Extensions.Data.IDatabase.ConnectionString
+  nameWithType: IDatabase.ConnectionString
+- uid: NetowlsStudio.Sdk.Extensions.Data.IDatabase.ConnectionString*
+  name: ConnectionString
+  href: api/NetowlsStudio.Sdk.Extensions.Data.IDatabase.html#NetowlsStudio_Sdk_Extensions_Data_IDatabase_ConnectionString_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.IDatabase.ConnectionString
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.IDatabase.ConnectionString
+  nameWithType: IDatabase.ConnectionString
+- uid: NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory
+  name: IDatabaseFactory
+  href: api/NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory
+  fullName: NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory
+  nameWithType: IDatabaseFactory
+- uid: NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.Create(System.String)
+  name: Create(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_IDatabaseFactory_Create_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.Create(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.Create(System.String)
+  nameWithType: IDatabaseFactory.Create(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.Create*
+  name: Create
+  href: api/NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_IDatabaseFactory_Create_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.Create
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.Create
+  nameWithType: IDatabaseFactory.Create
+- uid: NetowlsStudio.Sdk.Extensions.Data.IDatabaseService
+  name: IDatabaseService
+  href: api/NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.IDatabaseService
+  fullName: NetowlsStudio.Sdk.Extensions.Data.IDatabaseService
+  nameWithType: IDatabaseService
+- uid: NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.CreateDatabase(System.String)
+  name: CreateDatabase(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.html#NetowlsStudio_Sdk_Extensions_Data_IDatabaseService_CreateDatabase_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.CreateDatabase(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.CreateDatabase(System.String)
+  nameWithType: IDatabaseService.CreateDatabase(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.CreateDatabase*
+  name: CreateDatabase
+  href: api/NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.html#NetowlsStudio_Sdk_Extensions_Data_IDatabaseService_CreateDatabase_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.CreateDatabase
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.CreateDatabase
+  nameWithType: IDatabaseService.CreateDatabase
+- uid: NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.DbFactories
+  name: DbFactories
+  href: api/NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.html#NetowlsStudio_Sdk_Extensions_Data_IDatabaseService_DbFactories
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.DbFactories
+  fullName: NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.DbFactories
+  nameWithType: IDatabaseService.DbFactories
+- uid: NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.DbFactories*
+  name: DbFactories
+  href: api/NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.html#NetowlsStudio_Sdk_Extensions_Data_IDatabaseService_DbFactories_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.DbFactories
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.DbFactories
+  nameWithType: IDatabaseService.DbFactories
 - uid: NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand
   name: INativeDbCommand
   href: api/NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.html
@@ -1414,6 +2472,792 @@ references:
   fullName.vb: NetowlsStudio.Sdk.Extensions.Data.INativeDbUpdateCommand.ExecuteScalarAsync(Of T)(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
   nameWithType: INativeDbUpdateCommand.ExecuteScalarAsync<T>(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
   nameWithType.vb: INativeDbUpdateCommand.ExecuteScalarAsync(Of T)(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions
+  name: ISdkIntegrationInterfaceExtensions
+  href: api/NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions
+  fullName: NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions
+  nameWithType: ISdkIntegrationInterfaceExtensions
+- uid: NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions.AddDbFactory(NetowlsStudio.Sdk.ISdkIntegrationInterface,NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory)
+  name: AddDbFactory(ISdkIntegrationInterface, IDatabaseFactory)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions.html#NetowlsStudio_Sdk_Extensions_Data_ISdkIntegrationInterfaceExtensions_AddDbFactory_NetowlsStudio_Sdk_ISdkIntegrationInterface_NetowlsStudio_Sdk_Extensions_Data_IDatabaseFactory_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions.AddDbFactory(NetowlsStudio.Sdk.ISdkIntegrationInterface,NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions.AddDbFactory(NetowlsStudio.Sdk.ISdkIntegrationInterface, NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory)
+  nameWithType: ISdkIntegrationInterfaceExtensions.AddDbFactory(ISdkIntegrationInterface, IDatabaseFactory)
+- uid: NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions.AddDbFactory*
+  name: AddDbFactory
+  href: api/NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions.html#NetowlsStudio_Sdk_Extensions_Data_ISdkIntegrationInterfaceExtensions_AddDbFactory_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions.AddDbFactory
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions.AddDbFactory
+  nameWithType: ISdkIntegrationInterfaceExtensions.AddDbFactory
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql
+  name: NetowlsStudio.Sdk.Extensions.Data.MySql
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.html
+  commentId: N:NetowlsStudio.Sdk.Extensions.Data.MySql
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql
+  nameWithType: NetowlsStudio.Sdk.Extensions.Data.MySql
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.IMySqlDatabase
+  name: IMySqlDatabase
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.IMySqlDatabase.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.MySql.IMySqlDatabase
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.IMySqlDatabase
+  nameWithType: IMySqlDatabase
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand
+  name: INativeMySqlCommand
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand
+  nameWithType: INativeMySqlCommand
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand.CreateMySqlParameter(System.String,System.Object,MySql.Data.MySqlClient.MySqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name: CreateMySqlParameter(String, Object, MySqlDbType, ParameterDirection, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand.html#NetowlsStudio_Sdk_Extensions_Data_MySql_INativeMySqlCommand_CreateMySqlParameter_System_String_System_Object_MySql_Data_MySqlClient_MySqlDbType_System_Data_ParameterDirection_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand.CreateMySqlParameter(System.String,System.Object,MySql.Data.MySqlClient.MySqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name.vb: CreateMySqlParameter(String, Object, MySqlDbType, ParameterDirection, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand.CreateMySqlParameter(System.String, System.Object, MySql.Data.MySqlClient.MySqlDbType, System.Data.ParameterDirection, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand.CreateMySqlParameter(System.String, System.Object, MySql.Data.MySqlClient.MySqlDbType, System.Data.ParameterDirection, System.Nullable(Of System.Int32))
+  nameWithType: INativeMySqlCommand.CreateMySqlParameter(String, Object, MySqlDbType, ParameterDirection, Nullable<Int32>)
+  nameWithType.vb: INativeMySqlCommand.CreateMySqlParameter(String, Object, MySqlDbType, ParameterDirection, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand.CreateMySqlParameter*
+  name: CreateMySqlParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand.html#NetowlsStudio_Sdk_Extensions_Data_MySql_INativeMySqlCommand_CreateMySqlParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand.CreateMySqlParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlCommand.CreateMySqlParameter
+  nameWithType: INativeMySqlCommand.CreateMySqlParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection
+  name: INativeMySqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection
+  nameWithType: INativeMySqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection.MySqlConnection
+  name: MySqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection.html#NetowlsStudio_Sdk_Extensions_Data_MySql_INativeMySqlConnection_MySqlConnection
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection.MySqlConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection.MySqlConnection
+  nameWithType: INativeMySqlConnection.MySqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection.MySqlConnection*
+  name: MySqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection.html#NetowlsStudio_Sdk_Extensions_Data_MySql_INativeMySqlConnection_MySqlConnection_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection.MySqlConnection
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.INativeMySqlConnection.MySqlConnection
+  nameWithType: INativeMySqlConnection.MySqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions
+  name: ISdkIntegrationInterfaceExtensions
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions
+  nameWithType: ISdkIntegrationInterfaceExtensions
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions.UseMySqlConnectorFactory(NetowlsStudio.Sdk.ISdkIntegrationInterface)
+  name: UseMySqlConnectorFactory(ISdkIntegrationInterface)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions.html#NetowlsStudio_Sdk_Extensions_Data_MySql_ISdkIntegrationInterfaceExtensions_UseMySqlConnectorFactory_NetowlsStudio_Sdk_ISdkIntegrationInterface_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions.UseMySqlConnectorFactory(NetowlsStudio.Sdk.ISdkIntegrationInterface)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions.UseMySqlConnectorFactory(NetowlsStudio.Sdk.ISdkIntegrationInterface)
+  nameWithType: ISdkIntegrationInterfaceExtensions.UseMySqlConnectorFactory(ISdkIntegrationInterface)
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions.UseMySqlConnectorFactory*
+  name: UseMySqlConnectorFactory
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions.html#NetowlsStudio_Sdk_Extensions_Data_MySql_ISdkIntegrationInterfaceExtensions_UseMySqlConnectorFactory_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions.UseMySqlConnectorFactory
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.ISdkIntegrationInterfaceExtensions.UseMySqlConnectorFactory
+  nameWithType: ISdkIntegrationInterfaceExtensions.UseMySqlConnectorFactory
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase
+  name: MySqlDatabase
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase
+  nameWithType: MySqlDatabase
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.#ctor(System.String)
+  name: MySqlDatabase(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase__ctor_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.#ctor(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.MySqlDatabase(System.String)
+  nameWithType: MySqlDatabase.MySqlDatabase(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.#ctor*
+  name: MySqlDatabase
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase__ctor_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.#ctor
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.MySqlDatabase
+  nameWithType: MySqlDatabase.MySqlDatabase
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.BuildParameterName(System.String)
+  name: BuildParameterName(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_BuildParameterName_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.BuildParameterName(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.BuildParameterName(System.String)
+  nameWithType: MySqlDatabase.BuildParameterName(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.BuildParameterName*
+  name: BuildParameterName
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_BuildParameterName_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.BuildParameterName
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.BuildParameterName
+  nameWithType: MySqlDatabase.BuildParameterName
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateCommand(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name: CreateCommand(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_CreateCommand_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateCommand(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name.vb: CreateCommand(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateCommand(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateCommand(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  nameWithType: MySqlDatabase.CreateCommand(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  nameWithType.vb: MySqlDatabase.CreateCommand(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateCommand*
+  name: CreateCommand
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_CreateCommand_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateCommand
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateCommand
+  nameWithType: MySqlDatabase.CreateCommand
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateDbAdapter(System.Data.IDbCommand)
+  name: CreateDbAdapter(IDbCommand)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_CreateDbAdapter_System_Data_IDbCommand_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateDbAdapter(System.Data.IDbCommand)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateDbAdapter(System.Data.IDbCommand)
+  nameWithType: MySqlDatabase.CreateDbAdapter(IDbCommand)
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateDbAdapter*
+  name: CreateDbAdapter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_CreateDbAdapter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateDbAdapter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateDbAdapter
+  nameWithType: MySqlDatabase.CreateDbAdapter
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateMySqlParameter(System.String,System.Object,MySql.Data.MySqlClient.MySqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name: CreateMySqlParameter(String, Object, MySqlDbType, ParameterDirection, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_CreateMySqlParameter_System_String_System_Object_MySql_Data_MySqlClient_MySqlDbType_System_Data_ParameterDirection_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateMySqlParameter(System.String,System.Object,MySql.Data.MySqlClient.MySqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name.vb: CreateMySqlParameter(String, Object, MySqlDbType, ParameterDirection, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateMySqlParameter(System.String, System.Object, MySql.Data.MySqlClient.MySqlDbType, System.Data.ParameterDirection, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateMySqlParameter(System.String, System.Object, MySql.Data.MySqlClient.MySqlDbType, System.Data.ParameterDirection, System.Nullable(Of System.Int32))
+  nameWithType: MySqlDatabase.CreateMySqlParameter(String, Object, MySqlDbType, ParameterDirection, Nullable<Int32>)
+  nameWithType.vb: MySqlDatabase.CreateMySqlParameter(String, Object, MySqlDbType, ParameterDirection, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateMySqlParameter*
+  name: CreateMySqlParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_CreateMySqlParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateMySqlParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateMySqlParameter
+  nameWithType: MySqlDatabase.CreateMySqlParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateParameter(System.String,System.Object,System.Data.ParameterDirection,System.Data.DbType,System.Nullable{System.Int32})
+  name: CreateParameter(String, Object, ParameterDirection, DbType, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_CreateParameter_System_String_System_Object_System_Data_ParameterDirection_System_Data_DbType_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateParameter(System.String,System.Object,System.Data.ParameterDirection,System.Data.DbType,System.Nullable{System.Int32})
+  name.vb: CreateParameter(String, Object, ParameterDirection, DbType, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateParameter(System.String, System.Object, System.Data.ParameterDirection, System.Data.DbType, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateParameter(System.String, System.Object, System.Data.ParameterDirection, System.Data.DbType, System.Nullable(Of System.Int32))
+  nameWithType: MySqlDatabase.CreateParameter(String, Object, ParameterDirection, DbType, Nullable<Int32>)
+  nameWithType.vb: MySqlDatabase.CreateParameter(String, Object, ParameterDirection, DbType, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateParameter*
+  name: CreateParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_CreateParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.CreateParameter
+  nameWithType: MySqlDatabase.CreateParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.MySqlConnection
+  name: MySqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_MySqlConnection
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.MySqlConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.MySqlConnection
+  nameWithType: MySqlDatabase.MySqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.MySqlConnection*
+  name: MySqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_MySqlConnection_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.MySqlConnection
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.MySqlConnection
+  nameWithType: MySqlDatabase.MySqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.NewDbConnection
+  name: NewDbConnection()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_NewDbConnection
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.NewDbConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.NewDbConnection()
+  nameWithType: MySqlDatabase.NewDbConnection()
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.NewDbConnection*
+  name: NewDbConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabase_NewDbConnection_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.NewDbConnection
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabase.NewDbConnection
+  nameWithType: MySqlDatabase.NewDbConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory
+  name: MySqlDatabaseFactory
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory
+  nameWithType: MySqlDatabaseFactory
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.InternalCreate(System.String)
+  name: InternalCreate(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabaseFactory_InternalCreate_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.InternalCreate(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.InternalCreate(System.String)
+  nameWithType: MySqlDatabaseFactory.InternalCreate(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.InternalCreate*
+  name: InternalCreate
+  href: api/NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_MySql_MySqlDatabaseFactory_InternalCreate_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.InternalCreate
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.MySql.MySqlDatabaseFactory.InternalCreate
+  nameWithType: MySqlDatabaseFactory.InternalCreate
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql
+  name: NetowlsStudio.Sdk.Extensions.Data.PostgreSql
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.html
+  commentId: N:NetowlsStudio.Sdk.Extensions.Data.PostgreSql
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql
+  nameWithType: NetowlsStudio.Sdk.Extensions.Data.PostgreSql
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration
+  name: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.html
+  commentId: N:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration
+  nameWithType: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions
+  name: ISdkIntegrationInterfaceExtensions
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions
+  nameWithType: ISdkIntegrationInterfaceExtensions
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage(NetowlsStudio.Sdk.ISdkIntegrationInterface)
+  name: UseJsonNetAsPostgreSqlStorage(ISdkIntegrationInterface)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_Configuration_ISdkIntegrationInterfaceExtensions_UseJsonNetAsPostgreSqlStorage_NetowlsStudio_Sdk_ISdkIntegrationInterface_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage(NetowlsStudio.Sdk.ISdkIntegrationInterface)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage(NetowlsStudio.Sdk.ISdkIntegrationInterface)
+  nameWithType: ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage(ISdkIntegrationInterface)
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage(NetowlsStudio.Sdk.ISdkIntegrationInterface,Newtonsoft.Json.JsonSerializerSettings)
+  name: UseJsonNetAsPostgreSqlStorage(ISdkIntegrationInterface, JsonSerializerSettings)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_Configuration_ISdkIntegrationInterfaceExtensions_UseJsonNetAsPostgreSqlStorage_NetowlsStudio_Sdk_ISdkIntegrationInterface_Newtonsoft_Json_JsonSerializerSettings_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage(NetowlsStudio.Sdk.ISdkIntegrationInterface,Newtonsoft.Json.JsonSerializerSettings)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage(NetowlsStudio.Sdk.ISdkIntegrationInterface, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType: ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage(ISdkIntegrationInterface, JsonSerializerSettings)
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage*
+  name: UseJsonNetAsPostgreSqlStorage
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_Configuration_ISdkIntegrationInterfaceExtensions_UseJsonNetAsPostgreSqlStorage_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.Configuration.ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage
+  nameWithType: ISdkIntegrationInterfaceExtensions.UseJsonNetAsPostgreSqlStorage
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlDatabase
+  name: IPgsqlDatabase
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlDatabase.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlDatabase
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlDatabase
+  nameWithType: IPgsqlDatabase
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand
+  name: IPgsqlNativeCommand
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand
+  nameWithType: IPgsqlNativeCommand
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.CreatePgsqlParameter(System.String,System.Object,NpgsqlTypes.NpgsqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name: CreatePgsqlParameter(String, Object, NpgsqlDbType, ParameterDirection, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_IPgsqlNativeCommand_CreatePgsqlParameter_System_String_System_Object_NpgsqlTypes_NpgsqlDbType_System_Data_ParameterDirection_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.CreatePgsqlParameter(System.String,System.Object,NpgsqlTypes.NpgsqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name.vb: CreatePgsqlParameter(String, Object, NpgsqlDbType, ParameterDirection, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.CreatePgsqlParameter(System.String, System.Object, NpgsqlTypes.NpgsqlDbType, System.Data.ParameterDirection, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.CreatePgsqlParameter(System.String, System.Object, NpgsqlTypes.NpgsqlDbType, System.Data.ParameterDirection, System.Nullable(Of System.Int32))
+  nameWithType: IPgsqlNativeCommand.CreatePgsqlParameter(String, Object, NpgsqlDbType, ParameterDirection, Nullable<Int32>)
+  nameWithType.vb: IPgsqlNativeCommand.CreatePgsqlParameter(String, Object, NpgsqlDbType, ParameterDirection, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.CreatePgsqlParameter*
+  name: CreatePgsqlParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_IPgsqlNativeCommand_CreatePgsqlParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.CreatePgsqlParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.CreatePgsqlParameter
+  nameWithType: IPgsqlNativeCommand.CreatePgsqlParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.CreatePgsqlParameter``1(System.String,``0,NpgsqlTypes.NpgsqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name: CreatePgsqlParameter<T>(String, T, NpgsqlDbType, ParameterDirection, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_IPgsqlNativeCommand_CreatePgsqlParameter__1_System_String___0_NpgsqlTypes_NpgsqlDbType_System_Data_ParameterDirection_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.CreatePgsqlParameter``1(System.String,``0,NpgsqlTypes.NpgsqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name.vb: CreatePgsqlParameter(Of T)(String, T, NpgsqlDbType, ParameterDirection, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.CreatePgsqlParameter<T>(System.String, T, NpgsqlTypes.NpgsqlDbType, System.Data.ParameterDirection, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeCommand.CreatePgsqlParameter(Of T)(System.String, T, NpgsqlTypes.NpgsqlDbType, System.Data.ParameterDirection, System.Nullable(Of System.Int32))
+  nameWithType: IPgsqlNativeCommand.CreatePgsqlParameter<T>(String, T, NpgsqlDbType, ParameterDirection, Nullable<Int32>)
+  nameWithType.vb: IPgsqlNativeCommand.CreatePgsqlParameter(Of T)(String, T, NpgsqlDbType, ParameterDirection, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection
+  name: IPgsqlNativeConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection
+  nameWithType: IPgsqlNativeConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection.PgsqlConnection
+  name: PgsqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_IPgsqlNativeConnection_PgsqlConnection
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection.PgsqlConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection.PgsqlConnection
+  nameWithType: IPgsqlNativeConnection.PgsqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection.PgsqlConnection*
+  name: PgsqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_IPgsqlNativeConnection_PgsqlConnection_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection.PgsqlConnection
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.IPgsqlNativeConnection.PgsqlConnection
+  nameWithType: IPgsqlNativeConnection.PgsqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions
+  name: ISdkIntegrationInterfaceExtensions
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions
+  nameWithType: ISdkIntegrationInterfaceExtensions
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions.UsePgsqlDatabaseFactory(NetowlsStudio.Sdk.ISdkIntegrationInterface)
+  name: UsePgsqlDatabaseFactory(ISdkIntegrationInterface)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_ISdkIntegrationInterfaceExtensions_UsePgsqlDatabaseFactory_NetowlsStudio_Sdk_ISdkIntegrationInterface_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions.UsePgsqlDatabaseFactory(NetowlsStudio.Sdk.ISdkIntegrationInterface)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions.UsePgsqlDatabaseFactory(NetowlsStudio.Sdk.ISdkIntegrationInterface)
+  nameWithType: ISdkIntegrationInterfaceExtensions.UsePgsqlDatabaseFactory(ISdkIntegrationInterface)
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions.UsePgsqlDatabaseFactory*
+  name: UsePgsqlDatabaseFactory
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_ISdkIntegrationInterfaceExtensions_UsePgsqlDatabaseFactory_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions.UsePgsqlDatabaseFactory
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.ISdkIntegrationInterfaceExtensions.UsePgsqlDatabaseFactory
+  nameWithType: ISdkIntegrationInterfaceExtensions.UsePgsqlDatabaseFactory
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase
+  name: PgsqlDatabase
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase
+  nameWithType: PgsqlDatabase
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.#ctor(System.String)
+  name: PgsqlDatabase(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase__ctor_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.#ctor(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.PgsqlDatabase(System.String)
+  nameWithType: PgsqlDatabase.PgsqlDatabase(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.#ctor*
+  name: PgsqlDatabase
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase__ctor_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.#ctor
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.PgsqlDatabase
+  nameWithType: PgsqlDatabase.PgsqlDatabase
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateCommand(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name: CreateCommand(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_CreateCommand_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateCommand(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name.vb: CreateCommand(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateCommand(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateCommand(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  nameWithType: PgsqlDatabase.CreateCommand(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  nameWithType.vb: PgsqlDatabase.CreateCommand(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateCommand*
+  name: CreateCommand
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_CreateCommand_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateCommand
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateCommand
+  nameWithType: PgsqlDatabase.CreateCommand
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateDbAdapter(System.Data.IDbCommand)
+  name: CreateDbAdapter(IDbCommand)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_CreateDbAdapter_System_Data_IDbCommand_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateDbAdapter(System.Data.IDbCommand)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateDbAdapter(System.Data.IDbCommand)
+  nameWithType: PgsqlDatabase.CreateDbAdapter(IDbCommand)
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateDbAdapter*
+  name: CreateDbAdapter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_CreateDbAdapter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateDbAdapter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateDbAdapter
+  nameWithType: PgsqlDatabase.CreateDbAdapter
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateParameter(System.String,System.Object,System.Data.ParameterDirection,System.Data.DbType,System.Nullable{System.Int32})
+  name: CreateParameter(String, Object, ParameterDirection, DbType, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_CreateParameter_System_String_System_Object_System_Data_ParameterDirection_System_Data_DbType_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateParameter(System.String,System.Object,System.Data.ParameterDirection,System.Data.DbType,System.Nullable{System.Int32})
+  name.vb: CreateParameter(String, Object, ParameterDirection, DbType, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateParameter(System.String, System.Object, System.Data.ParameterDirection, System.Data.DbType, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateParameter(System.String, System.Object, System.Data.ParameterDirection, System.Data.DbType, System.Nullable(Of System.Int32))
+  nameWithType: PgsqlDatabase.CreateParameter(String, Object, ParameterDirection, DbType, Nullable<Int32>)
+  nameWithType.vb: PgsqlDatabase.CreateParameter(String, Object, ParameterDirection, DbType, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateParameter*
+  name: CreateParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_CreateParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreateParameter
+  nameWithType: PgsqlDatabase.CreateParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreatePgsqlParameter(System.String,System.Object,NpgsqlTypes.NpgsqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name: CreatePgsqlParameter(String, Object, NpgsqlDbType, ParameterDirection, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_CreatePgsqlParameter_System_String_System_Object_NpgsqlTypes_NpgsqlDbType_System_Data_ParameterDirection_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreatePgsqlParameter(System.String,System.Object,NpgsqlTypes.NpgsqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name.vb: CreatePgsqlParameter(String, Object, NpgsqlDbType, ParameterDirection, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreatePgsqlParameter(System.String, System.Object, NpgsqlTypes.NpgsqlDbType, System.Data.ParameterDirection, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreatePgsqlParameter(System.String, System.Object, NpgsqlTypes.NpgsqlDbType, System.Data.ParameterDirection, System.Nullable(Of System.Int32))
+  nameWithType: PgsqlDatabase.CreatePgsqlParameter(String, Object, NpgsqlDbType, ParameterDirection, Nullable<Int32>)
+  nameWithType.vb: PgsqlDatabase.CreatePgsqlParameter(String, Object, NpgsqlDbType, ParameterDirection, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreatePgsqlParameter*
+  name: CreatePgsqlParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_CreatePgsqlParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreatePgsqlParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreatePgsqlParameter
+  nameWithType: PgsqlDatabase.CreatePgsqlParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreatePgsqlParameter``1(System.String,``0,NpgsqlTypes.NpgsqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name: CreatePgsqlParameter<T>(String, T, NpgsqlDbType, ParameterDirection, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_CreatePgsqlParameter__1_System_String___0_NpgsqlTypes_NpgsqlDbType_System_Data_ParameterDirection_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreatePgsqlParameter``1(System.String,``0,NpgsqlTypes.NpgsqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name.vb: CreatePgsqlParameter(Of T)(String, T, NpgsqlDbType, ParameterDirection, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreatePgsqlParameter<T>(System.String, T, NpgsqlTypes.NpgsqlDbType, System.Data.ParameterDirection, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.CreatePgsqlParameter(Of T)(System.String, T, NpgsqlTypes.NpgsqlDbType, System.Data.ParameterDirection, System.Nullable(Of System.Int32))
+  nameWithType: PgsqlDatabase.CreatePgsqlParameter<T>(String, T, NpgsqlDbType, ParameterDirection, Nullable<Int32>)
+  nameWithType.vb: PgsqlDatabase.CreatePgsqlParameter(Of T)(String, T, NpgsqlDbType, ParameterDirection, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.NewDbConnection
+  name: NewDbConnection()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_NewDbConnection
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.NewDbConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.NewDbConnection()
+  nameWithType: PgsqlDatabase.NewDbConnection()
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.NewDbConnection*
+  name: NewDbConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_NewDbConnection_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.NewDbConnection
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.NewDbConnection
+  nameWithType: PgsqlDatabase.NewDbConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.PgsqlConnection
+  name: PgsqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_PgsqlConnection
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.PgsqlConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.PgsqlConnection
+  nameWithType: PgsqlDatabase.PgsqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.PgsqlConnection*
+  name: PgsqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabase_PgsqlConnection_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.PgsqlConnection
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabase.PgsqlConnection
+  nameWithType: PgsqlDatabase.PgsqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory
+  name: PgsqlDatabaseFactory
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory
+  nameWithType: PgsqlDatabaseFactory
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory.InternalCreate(System.String)
+  name: InternalCreate(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabaseFactory_InternalCreate_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory.InternalCreate(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory.InternalCreate(System.String)
+  nameWithType: PgsqlDatabaseFactory.InternalCreate(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory.InternalCreate*
+  name: InternalCreate
+  href: api/NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_PostgreSql_PgsqlDatabaseFactory_InternalCreate_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory.InternalCreate
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.PostgreSql.PgsqlDatabaseFactory.InternalCreate
+  nameWithType: PgsqlDatabaseFactory.InternalCreate
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient
+  name: NetowlsStudio.Sdk.Extensions.Data.SqlClient
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.html
+  commentId: N:NetowlsStudio.Sdk.Extensions.Data.SqlClient
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient
+  nameWithType: NetowlsStudio.Sdk.Extensions.Data.SqlClient
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand
+  name: INativeSqlCommand
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand
+  nameWithType: INativeSqlCommand
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand.CreateSqlParameter(System.String,System.Object,System.Data.SqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name: CreateSqlParameter(String, Object, SqlDbType, ParameterDirection, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_INativeSqlCommand_CreateSqlParameter_System_String_System_Object_System_Data_SqlDbType_System_Data_ParameterDirection_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand.CreateSqlParameter(System.String,System.Object,System.Data.SqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name.vb: CreateSqlParameter(String, Object, SqlDbType, ParameterDirection, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand.CreateSqlParameter(System.String, System.Object, System.Data.SqlDbType, System.Data.ParameterDirection, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand.CreateSqlParameter(System.String, System.Object, System.Data.SqlDbType, System.Data.ParameterDirection, System.Nullable(Of System.Int32))
+  nameWithType: INativeSqlCommand.CreateSqlParameter(String, Object, SqlDbType, ParameterDirection, Nullable<Int32>)
+  nameWithType.vb: INativeSqlCommand.CreateSqlParameter(String, Object, SqlDbType, ParameterDirection, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand.CreateSqlParameter*
+  name: CreateSqlParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_INativeSqlCommand_CreateSqlParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand.CreateSqlParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlCommand.CreateSqlParameter
+  nameWithType: INativeSqlCommand.CreateSqlParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection
+  name: INativeSqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection
+  nameWithType: INativeSqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransaction(System.Data.IsolationLevel,System.String)
+  name: BeginTransaction(IsolationLevel, String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_INativeSqlConnection_BeginTransaction_System_Data_IsolationLevel_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransaction(System.Data.IsolationLevel,System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransaction(System.Data.IsolationLevel, System.String)
+  nameWithType: INativeSqlConnection.BeginTransaction(IsolationLevel, String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransaction(System.String)
+  name: BeginTransaction(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_INativeSqlConnection_BeginTransaction_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransaction(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransaction(System.String)
+  nameWithType: INativeSqlConnection.BeginTransaction(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransaction*
+  name: BeginTransaction
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_INativeSqlConnection_BeginTransaction_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransaction
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransaction
+  nameWithType: INativeSqlConnection.BeginTransaction
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransactionAsync(System.Data.IsolationLevel,System.String)
+  name: BeginTransactionAsync(IsolationLevel, String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_INativeSqlConnection_BeginTransactionAsync_System_Data_IsolationLevel_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransactionAsync(System.Data.IsolationLevel,System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransactionAsync(System.Data.IsolationLevel, System.String)
+  nameWithType: INativeSqlConnection.BeginTransactionAsync(IsolationLevel, String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransactionAsync(System.String)
+  name: BeginTransactionAsync(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_INativeSqlConnection_BeginTransactionAsync_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransactionAsync(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransactionAsync(System.String)
+  nameWithType: INativeSqlConnection.BeginTransactionAsync(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransactionAsync*
+  name: BeginTransactionAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_INativeSqlConnection_BeginTransactionAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransactionAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.BeginTransactionAsync
+  nameWithType: INativeSqlConnection.BeginTransactionAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.SqlConnection
+  name: SqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_INativeSqlConnection_SqlConnection
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.SqlConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.SqlConnection
+  nameWithType: INativeSqlConnection.SqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.SqlConnection*
+  name: SqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_INativeSqlConnection_SqlConnection_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.SqlConnection
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.INativeSqlConnection.SqlConnection
+  nameWithType: INativeSqlConnection.SqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions
+  name: ISdkIntegrationInterfaceExtensions
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions
+  nameWithType: ISdkIntegrationInterfaceExtensions
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions.UseSqlServerFactory(NetowlsStudio.Sdk.ISdkIntegrationInterface)
+  name: UseSqlServerFactory(ISdkIntegrationInterface)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_ISdkIntegrationInterfaceExtensions_UseSqlServerFactory_NetowlsStudio_Sdk_ISdkIntegrationInterface_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions.UseSqlServerFactory(NetowlsStudio.Sdk.ISdkIntegrationInterface)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions.UseSqlServerFactory(NetowlsStudio.Sdk.ISdkIntegrationInterface)
+  nameWithType: ISdkIntegrationInterfaceExtensions.UseSqlServerFactory(ISdkIntegrationInterface)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions.UseSqlServerFactory*
+  name: UseSqlServerFactory
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_ISdkIntegrationInterfaceExtensions_UseSqlServerFactory_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions.UseSqlServerFactory
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISdkIntegrationInterfaceExtensions.UseSqlServerFactory
+  nameWithType: ISdkIntegrationInterfaceExtensions.UseSqlServerFactory
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISqlDatabase
+  name: ISqlDatabase
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISqlDatabase.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISqlDatabase
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.ISqlDatabase
+  nameWithType: ISqlDatabase
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase
+  name: SqlDatabase
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase
+  nameWithType: SqlDatabase
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.#ctor(System.String)
+  name: SqlDatabase(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase__ctor_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.#ctor(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.SqlDatabase(System.String)
+  nameWithType: SqlDatabase.SqlDatabase(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.#ctor*
+  name: SqlDatabase
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase__ctor_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.#ctor
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.SqlDatabase
+  nameWithType: SqlDatabase.SqlDatabase
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransaction(System.Data.IsolationLevel,System.String)
+  name: BeginTransaction(IsolationLevel, String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_BeginTransaction_System_Data_IsolationLevel_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransaction(System.Data.IsolationLevel,System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransaction(System.Data.IsolationLevel, System.String)
+  nameWithType: SqlDatabase.BeginTransaction(IsolationLevel, String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransaction(System.String)
+  name: BeginTransaction(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_BeginTransaction_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransaction(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransaction(System.String)
+  nameWithType: SqlDatabase.BeginTransaction(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransaction*
+  name: BeginTransaction
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_BeginTransaction_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransaction
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransaction
+  nameWithType: SqlDatabase.BeginTransaction
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransactionAsync(System.Data.IsolationLevel,System.String)
+  name: BeginTransactionAsync(IsolationLevel, String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_BeginTransactionAsync_System_Data_IsolationLevel_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransactionAsync(System.Data.IsolationLevel,System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransactionAsync(System.Data.IsolationLevel, System.String)
+  nameWithType: SqlDatabase.BeginTransactionAsync(IsolationLevel, String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransactionAsync(System.String)
+  name: BeginTransactionAsync(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_BeginTransactionAsync_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransactionAsync(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransactionAsync(System.String)
+  nameWithType: SqlDatabase.BeginTransactionAsync(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransactionAsync*
+  name: BeginTransactionAsync
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_BeginTransactionAsync_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransactionAsync
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.BeginTransactionAsync
+  nameWithType: SqlDatabase.BeginTransactionAsync
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.Connection
+  name: Connection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_Connection
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.Connection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.Connection
+  nameWithType: SqlDatabase.Connection
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.Connection*
+  name: Connection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_Connection_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.Connection
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.Connection
+  nameWithType: SqlDatabase.Connection
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateCommand(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name: CreateCommand(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_CreateCommand_System_String_System_Collections_Generic_IEnumerable_System_Data_IDbDataParameter__System_Data_CommandType_System_Data_IDbTransaction_System_Int32_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateCommand(System.String,System.Collections.Generic.IEnumerable{System.Data.IDbDataParameter},System.Data.CommandType,System.Data.IDbTransaction,System.Int32)
+  name.vb: CreateCommand(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateCommand(System.String, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>, System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateCommand(System.String, System.Collections.Generic.IEnumerable(Of System.Data.IDbDataParameter), System.Data.CommandType, System.Data.IDbTransaction, System.Int32)
+  nameWithType: SqlDatabase.CreateCommand(String, IEnumerable<IDbDataParameter>, CommandType, IDbTransaction, Int32)
+  nameWithType.vb: SqlDatabase.CreateCommand(String, IEnumerable(Of IDbDataParameter), CommandType, IDbTransaction, Int32)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateCommand*
+  name: CreateCommand
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_CreateCommand_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateCommand
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateCommand
+  nameWithType: SqlDatabase.CreateCommand
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateDbAdapter(System.Data.IDbCommand)
+  name: CreateDbAdapter(IDbCommand)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_CreateDbAdapter_System_Data_IDbCommand_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateDbAdapter(System.Data.IDbCommand)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateDbAdapter(System.Data.IDbCommand)
+  nameWithType: SqlDatabase.CreateDbAdapter(IDbCommand)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateDbAdapter*
+  name: CreateDbAdapter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_CreateDbAdapter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateDbAdapter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateDbAdapter
+  nameWithType: SqlDatabase.CreateDbAdapter
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateParameter(System.String,System.Object,System.Data.ParameterDirection,System.Data.DbType,System.Nullable{System.Int32})
+  name: CreateParameter(String, Object, ParameterDirection, DbType, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_CreateParameter_System_String_System_Object_System_Data_ParameterDirection_System_Data_DbType_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateParameter(System.String,System.Object,System.Data.ParameterDirection,System.Data.DbType,System.Nullable{System.Int32})
+  name.vb: CreateParameter(String, Object, ParameterDirection, DbType, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateParameter(System.String, System.Object, System.Data.ParameterDirection, System.Data.DbType, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateParameter(System.String, System.Object, System.Data.ParameterDirection, System.Data.DbType, System.Nullable(Of System.Int32))
+  nameWithType: SqlDatabase.CreateParameter(String, Object, ParameterDirection, DbType, Nullable<Int32>)
+  nameWithType.vb: SqlDatabase.CreateParameter(String, Object, ParameterDirection, DbType, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateParameter*
+  name: CreateParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_CreateParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateParameter
+  nameWithType: SqlDatabase.CreateParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateSqlParameter(System.String,System.Object,System.Data.SqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name: CreateSqlParameter(String, Object, SqlDbType, ParameterDirection, Nullable<Int32>)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_CreateSqlParameter_System_String_System_Object_System_Data_SqlDbType_System_Data_ParameterDirection_System_Nullable_System_Int32__
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateSqlParameter(System.String,System.Object,System.Data.SqlDbType,System.Data.ParameterDirection,System.Nullable{System.Int32})
+  name.vb: CreateSqlParameter(String, Object, SqlDbType, ParameterDirection, Nullable(Of Int32))
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateSqlParameter(System.String, System.Object, System.Data.SqlDbType, System.Data.ParameterDirection, System.Nullable<System.Int32>)
+  fullName.vb: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateSqlParameter(System.String, System.Object, System.Data.SqlDbType, System.Data.ParameterDirection, System.Nullable(Of System.Int32))
+  nameWithType: SqlDatabase.CreateSqlParameter(String, Object, SqlDbType, ParameterDirection, Nullable<Int32>)
+  nameWithType.vb: SqlDatabase.CreateSqlParameter(String, Object, SqlDbType, ParameterDirection, Nullable(Of Int32))
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateSqlParameter*
+  name: CreateSqlParameter
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_CreateSqlParameter_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateSqlParameter
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.CreateSqlParameter
+  nameWithType: SqlDatabase.CreateSqlParameter
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.NewDbConnection
+  name: NewDbConnection()
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_NewDbConnection
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.NewDbConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.NewDbConnection()
+  nameWithType: SqlDatabase.NewDbConnection()
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.NewDbConnection*
+  name: NewDbConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_NewDbConnection_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.NewDbConnection
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.NewDbConnection
+  nameWithType: SqlDatabase.NewDbConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.SqlConnection
+  name: SqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_SqlConnection
+  commentId: P:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.SqlConnection
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.SqlConnection
+  nameWithType: SqlDatabase.SqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.SqlConnection*
+  name: SqlConnection
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabase_SqlConnection_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.SqlConnection
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabase.SqlConnection
+  nameWithType: SqlDatabase.SqlConnection
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory
+  name: SqlDatabaseFactory
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory
+  nameWithType: SqlDatabaseFactory
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory.InternalCreate(System.String)
+  name: InternalCreate(String)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabaseFactory_InternalCreate_System_String_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory.InternalCreate(System.String)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory.InternalCreate(System.String)
+  nameWithType: SqlDatabaseFactory.InternalCreate(String)
+- uid: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory.InternalCreate*
+  name: InternalCreate
+  href: api/NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory.html#NetowlsStudio_Sdk_Extensions_Data_SqlClient_SqlDatabaseFactory_InternalCreate_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory.InternalCreate
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.SqlClient.SqlDatabaseFactory.InternalCreate
+  nameWithType: SqlDatabaseFactory.InternalCreate
+- uid: NetowlsStudio.Sdk.Extensions.Data.Unity
+  name: NetowlsStudio.Sdk.Extensions.Data.Unity
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Unity.html
+  commentId: N:NetowlsStudio.Sdk.Extensions.Data.Unity
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Unity
+  nameWithType: NetowlsStudio.Sdk.Extensions.Data.Unity
+- uid: NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions
+  name: IUnityContainerExtensions
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions.html
+  commentId: T:NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions
+  nameWithType: IUnityContainerExtensions
+- uid: NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions.AddNativeAdoNetServiceProvider(Unity.IUnityContainer)
+  name: AddNativeAdoNetServiceProvider(IUnityContainer)
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Unity_IUnityContainerExtensions_AddNativeAdoNetServiceProvider_Unity_IUnityContainer_
+  commentId: M:NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions.AddNativeAdoNetServiceProvider(Unity.IUnityContainer)
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions.AddNativeAdoNetServiceProvider(Unity.IUnityContainer)
+  nameWithType: IUnityContainerExtensions.AddNativeAdoNetServiceProvider(IUnityContainer)
+- uid: NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions.AddNativeAdoNetServiceProvider*
+  name: AddNativeAdoNetServiceProvider
+  href: api/NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions.html#NetowlsStudio_Sdk_Extensions_Data_Unity_IUnityContainerExtensions_AddNativeAdoNetServiceProvider_
+  commentId: Overload:NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions.AddNativeAdoNetServiceProvider
+  isSpec: "True"
+  fullName: NetowlsStudio.Sdk.Extensions.Data.Unity.IUnityContainerExtensions.AddNativeAdoNetServiceProvider
+  nameWithType: IUnityContainerExtensions.AddNativeAdoNetServiceProvider
 - uid: NetowlsStudio.Sdk.Extensions.Logging
   name: NetowlsStudio.Sdk.Extensions.Logging
   href: api/NetowlsStudio.Sdk.Extensions.Logging.html

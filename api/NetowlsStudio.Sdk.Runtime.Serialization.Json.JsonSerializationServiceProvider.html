@@ -199,6 +199,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public virtual T Deserialize&lt;T&gt;(string json)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -276,6 +277,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public virtual Task&lt;AsyncTaskResult&lt;T&gt;&gt; DeserializeAsync&lt;T&gt;(string json)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -343,6 +345,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override T InternalDeserialize&lt;T&gt;(Stream deserializationStream)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -431,6 +434,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void InternalSerialize&lt;T&gt;(Stream serializationStream, T data)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -513,6 +517,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public virtual string SerializeToJson&lt;T&gt;(T data)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -590,6 +595,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public virtual Task&lt;AsyncTaskResult&lt;string&gt;&gt; SerializeToJsonAsync&lt;T&gt;(T data)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

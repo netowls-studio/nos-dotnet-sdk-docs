@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace NetowlsStudio.Sdk.Extensions.Data
+    <title>Interface IDatabaseFactory
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace NetowlsStudio.Sdk.Extensions.Data
+    <meta name="title" content="Interface IDatabaseFactory
    ">
     <meta name="generator" content="docfx 2.54.0.0">
     
@@ -68,48 +68,71 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NetowlsStudio.Sdk.Extensions.Data">
+            <article class="content wrap" id="_content" data-uid="NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory">
   
-  <h1 id="NetowlsStudio_Sdk_Extensions_Data" data-uid="NetowlsStudio.Sdk.Extensions.Data" class="text-break">Namespace NetowlsStudio.Sdk.Extensions.Data
+  
+  <h1 id="NetowlsStudio_Sdk_Extensions_Data_IDatabaseFactory" data-uid="NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory" class="text-break">Interface IDatabaseFactory
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>定义了创建 ADO.NET 数据库访问程序的接口。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.html">NetowlsStudio.Sdk.Extensions.Data</a></h6>
+  <h6><strong>Assembly</strong>: NosFramework.Extensions.Ado.Native.Abstractions.dll</h6>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_IDatabaseFactory_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IDatabaseFactory</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.DatabaseFactoryDictionary.html">DatabaseFactoryDictionary</a></h4>
-      <section><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.html">IDatabaseFactory</a> 类型接口的对象实例字典集合。</p>
-<p> 密闭的，不可以从此类型派生。 </p>
-</section>
-      <h4><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.DbServiceProvider.html">DbServiceProvider</a></h4>
-      <section><p>提供了 ADO.NET 数据库访问服务相关的方法。</p>
-</section>
-      <h4><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.ISdkIntegrationInterfaceExtensions.html">ISdkIntegrationInterfaceExtensions</a></h4>
-      <section><p>为 <a class="xref" href="NetowlsStudio.Sdk.ISdkIntegrationInterface.html">ISdkIntegrationInterface</a> 类型提供的扩展方法。</p>
-</section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></h4>
-      <section><p>定义了 ADO.NET 数据库访问的接口。</p>
-</section>
-      <h4><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.html">IDatabaseFactory</a></h4>
-      <section><p>定义了创建 ADO.NET 数据库访问程序的接口。</p>
-</section>
-      <h4><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabaseService.html">IDatabaseService</a></h4>
-      <section><p>定义了 ADO.NET 数据库访问服务的接口。</p>
-</section>
-      <h4><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.INativeDbCommand.html">INativeDbCommand</a></h4>
-      <section><p>定义了 ADO.NET 数据库命令的接口。</p>
-</section>
-      <h4><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.INativeDbConnection.html">INativeDbConnection</a></h4>
-      <section><p>定义了管理 ADO.NET 数据库连接的接口。</p>
-</section>
-      <h4><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.INativeDbSelectCommand.html">INativeDbSelectCommand</a></h4>
-      <section><p>定义了 ADO.NET 数据库查询的接口。</p>
-</section>
-      <h4><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.INativeDbUpdateCommand.html">INativeDbUpdateCommand</a></h4>
-      <section><p>定义了 ADO.NET 数据库更新的接口。</p>
-</section>
+  
+  
+  <a id="NetowlsStudio_Sdk_Extensions_Data_IDatabaseFactory_Create_" data-uid="NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.Create*"></a>
+  <h4 id="NetowlsStudio_Sdk_Extensions_Data_IDatabaseFactory_Create_System_String_" data-uid="NetowlsStudio.Sdk.Extensions.Data.IDatabaseFactory.Create(System.String)">Create(String)</h4>
+  <div class="markdown level1 summary"><p>创建 ADO.NET 数据库访问程序对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDatabase Create(string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>数据库连接串。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></td>
+        <td><p>实现了 <a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a> 类型接口的对象实例。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="NetowlsStudio_Sdk_Extensions_Data_IDatabaseFactory_Create_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="NetowlsStudio.Sdk.Extensions.Data.IDatabase.html">IDatabase</a></div>
+  </div>
 </article>
           </div>
           

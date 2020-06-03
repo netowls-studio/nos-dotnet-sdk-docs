@@ -94,6 +94,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">T Deserialize&lt;T&gt;(byte[] data)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -171,6 +172,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">T Deserialize&lt;T&gt;(Stream deserializationStream)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -249,6 +251,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;T&gt;&gt; DeserializeAsync&lt;T&gt;(byte[] data)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -316,6 +319,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;T&gt;&gt; DeserializeAsync&lt;T&gt;(Stream deserializationStream)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -384,6 +388,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">byte[] Serialize&lt;T&gt;(T data)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -460,6 +465,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void Serialize&lt;T&gt;(Stream serializationStream, T data)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -532,6 +538,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&lt;byte[]&gt;&gt; SerializeAsync&lt;T&gt;(T data)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -598,6 +605,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">Task&lt;AsyncTaskResult&gt; SerializeAsync&lt;T&gt;(Stream serializationStream, T data)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
